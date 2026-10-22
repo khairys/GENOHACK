@@ -1,0 +1,28 @@
+# Raw downloaded documents and datasets from Google Drive
+.raw_files/
+*.pdf
+*.xlsx
+
+# Raw parser dumps
+.extracted_raw/
+*.json
+
+# Scratch files, test scripts and temporary images
+scratch/
+.system_generated/
+*.png
+*.jpg
+*.jpeg
+
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
