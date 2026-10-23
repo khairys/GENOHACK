@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BantengPanel: evaluasi in-silico panel SNP sapi Bali dengan data publik dan baseline setara.">
+  <title>BantengPanel — Bukti panel SNP</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="#"><span class="brand-mark">B</span><span>Banteng<span class="brand-light">Panel</span></span></a><span class="status"><i></i> Prototipe riset · v0.1</span></header>
+  <main>
+    <section class="hero">
+      <div class="eyebrow">GENOHACK 2026 · TRACK 2</div>
+      <h1>Panel yang tepat dimulai<br> dari bukti populasi.</h1>
+      <p>BantengPanel mengevaluasi apakah marker yang dipilih khusus untuk sapi Bali mempertahankan kemampuan membedakan populasi dengan jumlah SNP lebih sedikit.</p>
+      <div class="hero-meta"><span>● Analisis komputasional</span><span>● Data genomik publik</span><span>● Hasil dapat diunduh</span></div>
+    </section>
+    <section class="toolbar"><div><label for="cohort">Kohort</label><select id="cohort"><option value="dryad">Decker · Dryad 2014</option><option value="figshare">Sudrajad · Figshare 2020</option></select></div><div class="toolbar-note">Kohort dianalisis terpisah · UMD3.1</div></section>
+    <div id="error" class="error hidden"></div>
+    <section class="stats" id="stats"></section>
+    <section class="card chart-card">
+      <div class="section-head"><div><div class="eyebrow">HASIL VALIDASI SILANG</div><h2>Kinerja menurut ukuran panel</h2><p>Balanced accuracy pada data uji tiap fold · garis menunjukkan rerata fold</p></div><a class="download" id="csv-link" href="#" download>Unduh data CSV ↗</a></div>
+      <div class="legend"><span><i class="dot teal"></i>BantengPanel</span><span><i class="dot navy"></i>Global MAF</span><span><i class="dot gold"></i>Panel acak</span></div>
+      <div class="chart-scroll"><svg id="chart" viewBox="0 0 840 330" role="img" aria-label="Grafik balanced accuracy berdasarkan jumlah SNP"></svg></div>
+      <div class="chart-caption"><span>Lebih tinggi lebih baik</span><span>Garis putus-putus = peluang acak 0,50</span></div>
+      <div id="finding" class="finding"></div>
+    </section>
+    <section class="grid-two">
+      <article class="card"><div class="eyebrow">PERBANDINGAN SETARA</div><h2>Ringkasan benchmark</h2><p>Setiap metode memakai jumlah SNP yang sama. Nilai SD adalah variasi deskriptif antar-fold.</p><div class="table-wrap"><table><thead><tr><th>SNP</th><th>Metode</th><th>BA ± SD</th><th>Recall Bali</th></tr></thead><tbody id="results"></tbody></table></div></article>
+      <article class="card readout"><div class="eyebrow">CARA MEMBACA</div><h2>Yang diuji</h2><p>Marker dipilih dari data latih saja, berdasarkan perbedaan frekuensi alel Bali terhadap ras pembanding. Uji membandingkan logistic regression dengan class weight pada fold yang ditahan.</p><div class="formula">balanced accuracy = (sensitivitas + spesifisitas) / 2</div><h3>Makna praktis</h3><p>Skor mengukur pemisahan label ras di data publik ini. Skor tidak mengukur produktivitas, nilai pemuliaan, parentage, atau kesiapan assay.</p></article>
+    </section>
+    <section class="card"><div class="section-head"><div><div class="eyebrow">UJI GANGGUAN</div><h2>Ketahanan terhadap genotipe hilang</h2><p>Panel 48 SNP dipilih di training fold; perturbasi diterapkan hanya pada fold uji.</p></div></div><div class="table-wrap"><table><thead><tr><th>Skenario</th><th>BA ± SD</th><th>Recall Bali</th><th>Fold</th></tr></thead><tbody id="robustness"></tbody></table></div></section>
+    <section class="card"><div class="section-head"><div><div class="eyebrow">PANEL CANDIDATE</div><h2>Marker explorer</h2><p>Daftar ini diranking ulang pada seluruh kohort untuk ditinjau sebagai kandidat, bukan hasil validasi eksternal.</p></div><div><label for="panel-size">Ukuran</label><select id="panel-size"><option>8</option><option>16</option><option>24</option><option selected>48</option><option>72</option><option>96</option><option>128</option><option>156</option><option>200</option></select></div></div><div class="table-wrap"><table><thead><tr><th>Rank</th><th>Marker ID sumber</th><th>Kromosom</th><th>Posisi UMD3.1</th><th>Kontras ΔAF</th></tr></thead><tbody id="markers"></tbody></table></div><a class="download" id="marker-link" href="#" download>Unduh daftar marker ↗</a></section>
+    <section class="card limits"><div class="eyebrow">BATAS BUKTI</div><h2>Transparan tentang keterbatasan</h2><div id="limitations" class="limit-list"></div></section>
+    <section class="card sources"><div><div class="eyebrow">SUMBER</div><h2>Kohort genomik</h2><p id="source-copy"></p></div><div class="source-links"><a href="https://doi.org/10.5061/dryad.th092" target="_blank" rel="noreferrer">Dryad · CC0 ↗</a><a href="https://doi.org/10.6084/m9.figshare.13083587" target="_blank" rel="noreferrer">Figshare · CC BY 4.0 ↗</a><a href="../../docs/SCIENTIFIC_PROTOCOL.md">Protokol</a><a href="../../docs/DATA_PROVENANCE.md">Provenance</a></div></section>
+    <footer><span>BantengPanel · Exastra</span><span>Riset awal · hasil belum divalidasi lapangan</span></footer>
+  </main><script src="app.js"></script>
+</body></html>

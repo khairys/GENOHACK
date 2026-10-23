@@ -1,0 +1,1844 @@
+{
+  "dataset": "figshare",
+  "nSamples": 107,
+  "nBali": 16,
+  "nComparator": 91,
+  "nMarkers": 52886,
+  "markerSizes": [
+    8,
+    16,
+    24,
+    48,
+    72,
+    96,
+    128,
+    156,
+    200
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 35871,
+      "baliTest": 4
+    },
+    {
+      "fold": 2,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36487,
+      "baliTest": 4
+    },
+    {
+      "fold": 3,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 35719,
+      "baliTest": 4
+    },
+    {
+      "fold": 4,
+      "train": 81,
+      "test": 26,
+      "eligibleMarkers": 35996,
+      "baliTest": 4
+    },
+    {
+      "fold": 5,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36327,
+      "baliTest": 4
+    },
+    {
+      "fold": 6,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 35440,
+      "baliTest": 4
+    },
+    {
+      "fold": 7,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36439,
+      "baliTest": 4
+    },
+    {
+      "fold": 8,
+      "train": 81,
+      "test": 26,
+      "eligibleMarkers": 35544,
+      "baliTest": 4
+    },
+    {
+      "fold": 9,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36439,
+      "baliTest": 4
+    },
+    {
+      "fold": 10,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 34485,
+      "baliTest": 4
+    },
+    {
+      "fold": 11,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36688,
+      "baliTest": 4
+    },
+    {
+      "fold": 12,
+      "train": 81,
+      "test": 26,
+      "eligibleMarkers": 36272,
+      "baliTest": 4
+    },
+    {
+      "fold": 13,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 35742,
+      "baliTest": 4
+    },
+    {
+      "fold": 14,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36764,
+      "baliTest": 4
+    },
+    {
+      "fold": 15,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 34973,
+      "baliTest": 4
+    },
+    {
+      "fold": 16,
+      "train": 81,
+      "test": 26,
+      "eligibleMarkers": 36254,
+      "baliTest": 4
+    },
+    {
+      "fold": 17,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 35191,
+      "baliTest": 4
+    },
+    {
+      "fold": 18,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36544,
+      "baliTest": 4
+    },
+    {
+      "fold": 19,
+      "train": 80,
+      "test": 27,
+      "eligibleMarkers": 36378,
+      "baliTest": 4
+    },
+    {
+      "fold": 20,
+      "train": 81,
+      "test": 26,
+      "eligibleMarkers": 35624,
+      "baliTest": 4
+    }
+  ],
+  "results": [
+    {
+      "size": 8,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 0.9956521739130435,
+      "balancedAccuracySD": 0.008921550887696991,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 8,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 0.9693675889328063,
+      "balancedAccuracySD": 0.02769954216779146,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 8,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.9100634057971014,
+      "balancedAccuracySD": 0.013840284679191937,
+      "baliRecallMean": 0.9737500000000001,
+      "baliRecallSD": 0.011237403604306553,
+      "folds": 20
+    },
+    {
+      "size": 16,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 0.9978260869565216,
+      "balancedAccuracySD": 0.006691163165772725,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 16,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 0.9934782608695653,
+      "balancedAccuracySD": 0.012418273273423453,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 16,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.9609247364953888,
+      "balancedAccuracySD": 0.008153173332406881,
+      "baliRecallMean": 0.9904166666666667,
+      "baliRecallSD": 0.006209665169754983,
+      "folds": 20
+    },
+    {
+      "size": 24,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 24,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 0.9989130434782609,
+      "balancedAccuracySD": 0.004861017342390851,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 24,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.9801795125164692,
+      "balancedAccuracySD": 0.006632607390665233,
+      "baliRecallMean": 0.9966666666666667,
+      "baliRecallSD": 0.005671308728155983,
+      "folds": 20
+    },
+    {
+      "size": 48,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 48,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 48,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.9962302371541503,
+      "balancedAccuracySD": 0.0018729324645824367,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 72,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 72,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 72,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.9989311594202899,
+      "balancedAccuracySD": 0.0008941290076220916,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 96,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 96,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 96,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.9997414361001317,
+      "balancedAccuracySD": 0.0004313537986651415,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 128,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 128,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 128,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.999963768115942,
+      "balancedAccuracySD": 0.00016203391141301758,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 156,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 156,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 156,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 0.999963768115942,
+      "balancedAccuracySD": 0.00016203391141302555,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 200,
+      "method": "BantengPanel",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 200,
+      "method": "Global-MAF",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    },
+    {
+      "size": 200,
+      "method": "Random-mean",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "baliRecallSD": 0.0,
+      "folds": 20
+    }
+  ],
+  "robustness": [
+    {
+      "scenario": "genotype_error_01",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "folds": 20
+    },
+    {
+      "scenario": "missing_05",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "folds": 20
+    },
+    {
+      "scenario": "missing_10",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "folds": 20
+    },
+    {
+      "scenario": "missing_20",
+      "balancedAccuracyMean": 1.0,
+      "balancedAccuracySD": 0.0,
+      "baliRecallMean": 1.0,
+      "folds": 20
+    }
+  ],
+  "selectedMarkers": [
+    {
+      "sourceMarkerId": "snp18719",
+      "markerId": "ARS-BFGL-NGS-29411",
+      "chromosome": "8",
+      "position": 7455047,
+      "score": 0.9945054945054945
+    },
+    {
+      "sourceMarkerId": "snp18714",
+      "markerId": "BTB-00333373",
+      "chromosome": "8",
+      "position": 7134496,
+      "score": 0.9945054945054945
+    },
+    {
+      "sourceMarkerId": "snp52051",
+      "markerId": "ARS-BFGL-NGS-113634",
+      "chromosome": "29",
+      "position": 12661834,
+      "score": 0.9886363636363636
+    },
+    {
+      "sourceMarkerId": "snp18708",
+      "markerId": "ARS-BFGL-NGS-118457",
+      "chromosome": "8",
+      "position": 6687056,
+      "score": 0.9835164835164835
+    },
+    {
+      "sourceMarkerId": "snp40387",
+      "markerId": "ARS-BFGL-NGS-40820",
+      "chromosome": "19",
+      "position": 41393747,
+      "score": 0.9662921348314607
+    },
+    {
+      "sourceMarkerId": "snp17301",
+      "markerId": "ARS-BFGL-NGS-111444",
+      "chromosome": "7",
+      "position": 52682240,
+      "score": 0.9615384615384616
+    },
+    {
+      "sourceMarkerId": "snp42512",
+      "markerId": "BTA-121305-no-rs",
+      "chromosome": "21",
+      "position": 1658789,
+      "score": 0.9529411764705882
+    },
+    {
+      "sourceMarkerId": "snp34954",
+      "markerId": "Hapmap33722-BTA-155362",
+      "chromosome": "16",
+      "position": 6619400,
+      "score": 0.949438202247191
+    },
+    {
+      "sourceMarkerId": "snp52742",
+      "markerId": "ARS-BFGL-NGS-35555",
+      "chromosome": "29",
+      "position": 45575574,
+      "score": 0.945054945054945
+    },
+    {
+      "sourceMarkerId": "snp17990",
+      "markerId": "ARS-BFGL-NGS-11872",
+      "chromosome": "7",
+      "position": 82998908,
+      "score": 0.9436781609195403
+    },
+    {
+      "sourceMarkerId": "snp30518",
+      "markerId": "BTB-00529466",
+      "chromosome": "13",
+      "position": 55529589,
+      "score": 0.9411764705882353
+    },
+    {
+      "sourceMarkerId": "snp1687",
+      "markerId": "ARS-BFGL-NGS-116286",
+      "chromosome": "1",
+      "position": 81656974,
+      "score": 0.9395604395604396
+    },
+    {
+      "sourceMarkerId": "snp30983",
+      "markerId": "ARS-BFGL-NGS-30791",
+      "chromosome": "13",
+      "position": 75310875,
+      "score": 0.9395604395604396
+    },
+    {
+      "sourceMarkerId": "snp40379",
+      "markerId": "Hapmap32043-BTA-133166",
+      "chromosome": "19",
+      "position": 41103771,
+      "score": 0.9395604395604396
+    },
+    {
+      "sourceMarkerId": "snp39479",
+      "markerId": "ARS-BFGL-NGS-32924",
+      "chromosome": "18",
+      "position": 64342185,
+      "score": 0.9388888888888889
+    },
+    {
+      "sourceMarkerId": "snp41636",
+      "markerId": "BTA-50386-no-rs",
+      "chromosome": "20",
+      "position": 34667591,
+      "score": 0.935782967032967
+    },
+    {
+      "sourceMarkerId": "snp34927",
+      "markerId": "ARS-BFGL-NGS-100487",
+      "chromosome": "16",
+      "position": 4610955,
+      "score": 0.9340659340659341
+    },
+    {
+      "sourceMarkerId": "snp17319",
+      "markerId": "ARS-BFGL-NGS-20197",
+      "chromosome": "7",
+      "position": 53932886,
+      "score": 0.9340659340659341
+    },
+    {
+      "sourceMarkerId": "snp40364",
+      "markerId": "ARS-BFGL-NGS-73677",
+      "chromosome": "19",
+      "position": 40216403,
+      "score": 0.9340659340659341
+    },
+    {
+      "sourceMarkerId": "snp40033",
+      "markerId": "ARS-BFGL-NGS-81882",
+      "chromosome": "19",
+      "position": 26238708,
+      "score": 0.9340659340659341
+    },
+    {
+      "sourceMarkerId": "snp3169",
+      "markerId": "BTB-00043127",
+      "chromosome": "1",
+      "position": 147883938,
+      "score": 0.9340659340659341
+    },
+    {
+      "sourceMarkerId": "snp8023",
+      "markerId": "Hapmap38204-BTA-17242",
+      "chromosome": "3",
+      "position": 90495998,
+      "score": 0.9329268292682926
+    },
+    {
+      "sourceMarkerId": "snp51644",
+      "markerId": "UA-IFASA-3114",
+      "chromosome": "28",
+      "position": 40571835,
+      "score": 0.9302325581395349
+    },
+    {
+      "sourceMarkerId": "snp8245",
+      "markerId": "ARS-BFGL-NGS-117068",
+      "chromosome": "3",
+      "position": 99004471,
+      "score": 0.9294117647058824
+    },
+    {
+      "sourceMarkerId": "snp38095",
+      "markerId": "ARS-BFGL-NGS-17005",
+      "chromosome": "17",
+      "position": 73257794,
+      "score": 0.9285714285714286
+    },
+    {
+      "sourceMarkerId": "snp32030",
+      "markerId": "BTB-00003200",
+      "chromosome": "14",
+      "position": 33509272,
+      "score": 0.9277777777777778
+    },
+    {
+      "sourceMarkerId": "snp40077",
+      "markerId": "ARS-BFGL-BAC-32291",
+      "chromosome": "19",
+      "position": 28060683,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp48582",
+      "markerId": "ARS-BFGL-BAC-40619",
+      "chromosome": "25",
+      "position": 36762088,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp30590",
+      "markerId": "ARS-BFGL-NGS-101035",
+      "chromosome": "13",
+      "position": 58456868,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp48603",
+      "markerId": "ARS-BFGL-NGS-23455",
+      "chromosome": "25",
+      "position": 37814617,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp48304",
+      "markerId": "ARS-BFGL-NGS-24420",
+      "chromosome": "25",
+      "position": 25876171,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp17332",
+      "markerId": "ARS-BFGL-NGS-25352",
+      "chromosome": "7",
+      "position": 54632239,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp40403",
+      "markerId": "ARS-BFGL-NGS-28121",
+      "chromosome": "19",
+      "position": 42227236,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp3144",
+      "markerId": "ARS-BFGL-NGS-5057",
+      "chromosome": "1",
+      "position": 147121098,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp35596",
+      "markerId": "BTB-00022322",
+      "chromosome": "16",
+      "position": 40282077,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp49062",
+      "markerId": "BTB-00927181",
+      "chromosome": "26",
+      "position": 18067588,
+      "score": 0.9230769230769231
+    },
+    {
+      "sourceMarkerId": "snp52869",
+      "markerId": "ARS-BFGL-NGS-78501",
+      "chromosome": "29",
+      "position": 50533499,
+      "score": 0.9213483146067416
+    },
+    {
+      "sourceMarkerId": "snp42837",
+      "markerId": "ARS-BFGL-BAC-34984",
+      "chromosome": "21",
+      "position": 17740672,
+      "score": 0.9204545454545454
+    },
+    {
+      "sourceMarkerId": "snp12636",
+      "markerId": "ARS-BFGL-NGS-12711",
+      "chromosome": "5",
+      "position": 71045870,
+      "score": 0.9204545454545454
+    },
+    {
+      "sourceMarkerId": "snp38619",
+      "markerId": "ARS-BFGL-NGS-77651",
+      "chromosome": "18",
+      "position": 22437134,
+      "score": 0.9195402298850575
+    },
+    {
+      "sourceMarkerId": "snp38074",
+      "markerId": "ARS-BFGL-NGS-118873",
+      "chromosome": "17",
+      "position": 72180821,
+      "score": 0.9192994505494505
+    },
+    {
+      "sourceMarkerId": "snp40357",
+      "markerId": "Hapmap29069-BTA-45382",
+      "chromosome": "19",
+      "position": 39932816,
+      "score": 0.91875
+    },
+    {
+      "sourceMarkerId": "snp11578",
+      "markerId": "BTB-01359812",
+      "chromosome": "5",
+      "position": 7924892,
+      "score": 0.918188202247191
+    },
+    {
+      "sourceMarkerId": "snp7154",
+      "markerId": "ARS-BFGL-NGS-119151",
+      "chromosome": "3",
+      "position": 49544712,
+      "score": 0.9175824175824175
+    },
+    {
+      "sourceMarkerId": "snp17575",
+      "markerId": "ARS-BFGL-NGS-14738",
+      "chromosome": "7",
+      "position": 64918202,
+      "score": 0.9175824175824175
+    },
+    {
+      "sourceMarkerId": "snp34902",
+      "markerId": "ARS-BFGL-NGS-58366",
+      "chromosome": "16",
+      "position": 3658676,
+      "score": 0.9175824175824175
+    },
+    {
+      "sourceMarkerId": "snp35612",
+      "markerId": "BTB-00640427",
+      "chromosome": "16",
+      "position": 41260623,
+      "score": 0.9175824175824175
+    },
+    {
+      "sourceMarkerId": "snp31860",
+      "markerId": "Hapmap31956-BTC-054628",
+      "chromosome": "14",
+      "position": 26035082,
+      "score": 0.9175824175824175
+    },
+    {
+      "sourceMarkerId": "snp33910",
+      "markerId": "ARS-BFGL-NGS-93566",
+      "chromosome": "15",
+      "position": 42032171,
+      "score": 0.913804945054945
+    },
+    {
+      "sourceMarkerId": "snp24461",
+      "markerId": "Hapmap31150-BTA-152385",
+      "chromosome": "10",
+      "position": 66687859,
+      "score": 0.913804945054945
+    },
+    {
+      "sourceMarkerId": "snp4777",
+      "markerId": "BTA-47765-no-rs",
+      "chromosome": "2",
+      "position": 61800404,
+      "score": 0.9137931034482758
+    },
+    {
+      "sourceMarkerId": "snp18003",
+      "markerId": "BTB-00320521",
+      "chromosome": "7",
+      "position": 83621039,
+      "score": 0.9131944444444444
+    },
+    {
+      "sourceMarkerId": "snp12615",
+      "markerId": "ARS-BFGL-NGS-36257",
+      "chromosome": "5",
+      "position": 69935577,
+      "score": 0.9120879120879121
+    },
+    {
+      "sourceMarkerId": "snp20825",
+      "markerId": "ARS-BFGL-NGS-63961",
+      "chromosome": "8",
+      "position": 105683974,
+      "score": 0.9120879120879121
+    },
+    {
+      "sourceMarkerId": "snp17278",
+      "markerId": "ARS-BFGL-NGS-71772",
+      "chromosome": "7",
+      "position": 50508931,
+      "score": 0.9120879120879121
+    },
+    {
+      "sourceMarkerId": "snp32264",
+      "markerId": "BTA-02620-rs29010169",
+      "chromosome": "14",
+      "position": 45601728,
+      "score": 0.9120879120879121
+    },
+    {
+      "sourceMarkerId": "snp18326",
+      "markerId": "BTA-87865-no-rs",
+      "chromosome": "7",
+      "position": 101481295,
+      "score": 0.9120879120879121
+    },
+    {
+      "sourceMarkerId": "snp18581",
+      "markerId": "ARS-BFGL-NGS-73741",
+      "chromosome": "8",
+      "position": 541411,
+      "score": 0.9108614232209737
+    },
+    {
+      "sourceMarkerId": "snp8355",
+      "markerId": "ARS-BFGL-NGS-103745",
+      "chromosome": "3",
+      "position": 103840122,
+      "score": 0.9083104395604396
+    },
+    {
+      "sourceMarkerId": "snp16584",
+      "markerId": "ARS-BFGL-NGS-6603",
+      "chromosome": "7",
+      "position": 20080475,
+      "score": 0.9083104395604396
+    },
+    {
+      "sourceMarkerId": "snp42576",
+      "markerId": "BTA-52775-no-rs",
+      "chromosome": "21",
+      "position": 5944033,
+      "score": 0.9083104395604396
+    },
+    {
+      "sourceMarkerId": "snp47713",
+      "markerId": "BTB-01890193",
+      "chromosome": "24",
+      "position": 62507214,
+      "score": 0.9083104395604396
+    },
+    {
+      "sourceMarkerId": "snp40888",
+      "markerId": "ARS-BFGL-NGS-103044",
+      "chromosome": "19",
+      "position": 61919633,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp45146",
+      "markerId": "ARS-BFGL-NGS-25043",
+      "chromosome": "22",
+      "position": 55257755,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp48558",
+      "markerId": "ARS-BFGL-NGS-30323",
+      "chromosome": "25",
+      "position": 35909653,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp50551",
+      "markerId": "ARS-BFGL-NGS-59327",
+      "chromosome": "27",
+      "position": 33527863,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp35810",
+      "markerId": "ARS-BFGL-NGS-77093",
+      "chromosome": "16",
+      "position": 51011081,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp24500",
+      "markerId": "ARS-BFGL-NGS-97889",
+      "chromosome": "10",
+      "position": 68525616,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp10052",
+      "markerId": "BTB-00190917",
+      "chromosome": "4",
+      "position": 59890861,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp31981",
+      "markerId": "BTB-00563836",
+      "chromosome": "14",
+      "position": 30818549,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp47249",
+      "markerId": "BTB-00888884",
+      "chromosome": "24",
+      "position": 38752788,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp1125",
+      "markerId": "BTB-01044365",
+      "chromosome": "1",
+      "position": 54625163,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp24772",
+      "markerId": "BTB-01373360",
+      "chromosome": "10",
+      "position": 82005034,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp2425",
+      "markerId": "BTB-01514979",
+      "chromosome": "1",
+      "position": 115917892,
+      "score": 0.9065934065934066
+    },
+    {
+      "sourceMarkerId": "snp17566",
+      "markerId": "ARS-BFGL-NGS-81508",
+      "chromosome": "7",
+      "position": 64605680,
+      "score": 0.9055555555555556
+    },
+    {
+      "sourceMarkerId": "snp17963",
+      "markerId": "ARS-BFGL-NGS-57877",
+      "chromosome": "7",
+      "position": 82051714,
+      "score": 0.9047619047619048
+    },
+    {
+      "sourceMarkerId": "snp35092",
+      "markerId": "ARS-BFGL-NGS-99097",
+      "chromosome": "16",
+      "position": 14425967,
+      "score": 0.904532967032967
+    },
+    {
+      "sourceMarkerId": "snp25265",
+      "markerId": "ARS-BFGL-NGS-70413",
+      "chromosome": "10",
+      "position": 102574147,
+      "score": 0.9034090909090909
+    },
+    {
+      "sourceMarkerId": "snp17428",
+      "markerId": "ARS-BFGL-NGS-40831",
+      "chromosome": "7",
+      "position": 59190662,
+      "score": 0.9028159340659341
+    },
+    {
+      "sourceMarkerId": "snp52606",
+      "markerId": "ARS-BFGL-NGS-40810",
+      "chromosome": "29",
+      "position": 40321510,
+      "score": 0.9010989010989011
+    },
+    {
+      "sourceMarkerId": "snp13177",
+      "markerId": "ARS-USMARC-172",
+      "chromosome": "5",
+      "position": 100244820,
+      "score": 0.9010989010989011
+    },
+    {
+      "sourceMarkerId": "snp32659",
+      "markerId": "UA-IFASA-6806",
+      "chromosome": "14",
+      "position": 63827753,
+      "score": 0.9010989010989011
+    },
+    {
+      "sourceMarkerId": "snp20382",
+      "markerId": "ARS-BFGL-NGS-26532",
+      "chromosome": "8",
+      "position": 86056611,
+      "score": 0.9
+    },
+    {
+      "sourceMarkerId": "snp33143",
+      "markerId": "BTA-36065-no-rs",
+      "chromosome": "15",
+      "position": 5965215,
+      "score": 0.9
+    },
+    {
+      "sourceMarkerId": "snp2416",
+      "markerId": "BTA-47242-no-rs",
+      "chromosome": "1",
+      "position": 115529321,
+      "score": 0.9
+    },
+    {
+      "sourceMarkerId": "snp25233",
+      "markerId": "ARS-BFGL-NGS-20157",
+      "chromosome": "10",
+      "position": 101200927,
+      "score": 0.898876404494382
+    },
+    {
+      "sourceMarkerId": "snp4764",
+      "markerId": "ARS-BFGL-NGS-117383",
+      "chromosome": "2",
+      "position": 61300131,
+      "score": 0.8988095238095238
+    },
+    {
+      "sourceMarkerId": "snp19013",
+      "markerId": "BTB-00338736",
+      "chromosome": "8",
+      "position": 22935291,
+      "score": 0.8988095238095238
+    },
+    {
+      "sourceMarkerId": "snp28058",
+      "markerId": "Hapmap22997-BTA-127428",
+      "chromosome": "12",
+      "position": 23473573,
+      "score": 0.8988095238095238
+    },
+    {
+      "sourceMarkerId": "snp17196",
+      "markerId": "Hapmap47127-BTA-88691",
+      "chromosome": "7",
+      "position": 47002161,
+      "score": 0.8973214285714286
+    },
+    {
+      "sourceMarkerId": "snp51935",
+      "markerId": "ARS-BFGL-NGS-109800",
+      "chromosome": "29",
+      "position": 7091551,
+      "score": 0.8956043956043956
+    },
+    {
+      "sourceMarkerId": "snp28025",
+      "markerId": "ARS-BFGL-NGS-11531",
+      "chromosome": "12",
+      "position": 21315343,
+      "score": 0.8956043956043956
+    },
+    {
+      "sourceMarkerId": "snp38530",
+      "markerId": "ARS-BFGL-NGS-74170",
+      "chromosome": "18",
+      "position": 18113920,
+      "score": 0.8956043956043956
+    },
+    {
+      "sourceMarkerId": "snp41687",
+      "markerId": "BTA-50525-no-rs",
+      "chromosome": "20",
+      "position": 36917645,
+      "score": 0.8956043956043956
+    },
+    {
+      "sourceMarkerId": "snp22220",
+      "markerId": "BTA-83899-no-rs",
+      "chromosome": "9",
+      "position": 60385069,
+      "score": 0.8956043956043956
+    },
+    {
+      "sourceMarkerId": "snp40559",
+      "markerId": "UA-IFASA-5057",
+      "chromosome": "19",
+      "position": 48988244,
+      "score": 0.8956043956043956
+    },
+    {
+      "sourceMarkerId": "snp3120",
+      "markerId": "ARS-BFGL-NGS-111111",
+      "chromosome": "1",
+      "position": 146302724,
+      "score": 0.8918269230769231
+    },
+    {
+      "sourceMarkerId": "snp43983",
+      "markerId": "ARS-BFGL-NGS-8097",
+      "chromosome": "21",
+      "position": 70858428,
+      "score": 0.8918269230769231
+    },
+    {
+      "sourceMarkerId": "snp39962",
+      "markerId": "ARS-BFGL-NGS-118070",
+      "chromosome": "19",
+      "position": 23477516,
+      "score": 0.8908045977011494
+    },
+    {
+      "sourceMarkerId": "snp17694",
+      "markerId": "BTB-01174309",
+      "chromosome": "7",
+      "position": 69520683,
+      "score": 0.8908045977011494
+    },
+    {
+      "sourceMarkerId": "snp50735",
+      "markerId": "ARS-BFGL-NGS-109460",
+      "chromosome": "27",
+      "position": 41866129,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp52726",
+      "markerId": "ARS-BFGL-NGS-119847",
+      "chromosome": "29",
+      "position": 44969518,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp45178",
+      "markerId": "ARS-BFGL-NGS-16048",
+      "chromosome": "22",
+      "position": 56448122,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp24488",
+      "markerId": "ARS-BFGL-NGS-20892",
+      "chromosome": "10",
+      "position": 68135917,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp5381",
+      "markerId": "ARS-BFGL-NGS-29309",
+      "chromosome": "2",
+      "position": 96495311,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp13515",
+      "markerId": "ARS-BFGL-NGS-34420",
+      "chromosome": "5",
+      "position": 115633531,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp37605",
+      "markerId": "ARS-BFGL-NGS-39854",
+      "chromosome": "17",
+      "position": 53180044,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp52834",
+      "markerId": "ARS-BFGL-NGS-91588",
+      "chromosome": "29",
+      "position": 49079040,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp17654",
+      "markerId": "BTB-01854364",
+      "chromosome": "7",
+      "position": 67887168,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp19675",
+      "markerId": "Hapmap30618-BTA-38298",
+      "chromosome": "8",
+      "position": 53382829,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp7846",
+      "markerId": "Hapmap47699-BTA-68564",
+      "chromosome": "3",
+      "position": 83692702,
+      "score": 0.8901098901098901
+    },
+    {
+      "sourceMarkerId": "snp8292",
+      "markerId": "ARS-BFGL-NGS-109837",
+      "chromosome": "3",
+      "position": 100901542,
+      "score": 0.8895348837209303
+    },
+    {
+      "sourceMarkerId": "snp3257",
+      "markerId": "ARS-BFGL-NGS-112213",
+      "chromosome": "1",
+      "position": 151665620,
+      "score": 0.8888888888888888
+    },
+    {
+      "sourceMarkerId": "snp7448",
+      "markerId": "BTA-115566-no-rs",
+      "chromosome": "3",
+      "position": 65772132,
+      "score": 0.8888888888888888
+    },
+    {
+      "sourceMarkerId": "snp16596",
+      "markerId": "ARS-BFGL-NGS-14531",
+      "chromosome": "7",
+      "position": 20500709,
+      "score": 0.888235294117647
+    },
+    {
+      "sourceMarkerId": "snp36220",
+      "markerId": "BTA-39735-no-rs",
+      "chromosome": "16",
+      "position": 68455943,
+      "score": 0.8880494505494505
+    },
+    {
+      "sourceMarkerId": "snp38848",
+      "markerId": "ARS-BFGL-NGS-67296",
+      "chromosome": "18",
+      "position": 34243800,
+      "score": 0.8876404494382022
+    },
+    {
+      "sourceMarkerId": "snp31264",
+      "markerId": "Hapmap29888-BTC-003509",
+      "chromosome": "14",
+      "position": 2803998,
+      "score": 0.8876404494382022
+    },
+    {
+      "sourceMarkerId": "snp30974",
+      "markerId": "BTB-01918848",
+      "chromosome": "13",
+      "position": 74944491,
+      "score": 0.8863324175824175
+    },
+    {
+      "sourceMarkerId": "snp23674",
+      "markerId": "BTA-62308-no-rs",
+      "chromosome": "10",
+      "position": 29176267,
+      "score": 0.8850574712643678
+    },
+    {
+      "sourceMarkerId": "snp40754",
+      "markerId": "ARS-BFGL-NGS-117484",
+      "chromosome": "19",
+      "position": 56495427,
+      "score": 0.8846153846153846
+    },
+    {
+      "sourceMarkerId": "snp34866",
+      "markerId": "ARS-BFGL-NGS-80118",
+      "chromosome": "16",
+      "position": 2134973,
+      "score": 0.8846153846153846
+    },
+    {
+      "sourceMarkerId": "snp6976",
+      "markerId": "ARS-USMARC-Parent-AY842472-rs29001941",
+      "chromosome": "3",
+      "position": 40399136,
+      "score": 0.8846153846153846
+    },
+    {
+      "sourceMarkerId": "snp35719",
+      "markerId": "BTB-00642189",
+      "chromosome": "16",
+      "position": 47166105,
+      "score": 0.8846153846153846
+    },
+    {
+      "sourceMarkerId": "snp10700",
+      "markerId": "BTB-00880226",
+      "chromosome": "4",
+      "position": 89299743,
+      "score": 0.8846153846153846
+    },
+    {
+      "sourceMarkerId": "snp48973",
+      "markerId": "BTB-01134449",
+      "chromosome": "26",
+      "position": 13781200,
+      "score": 0.8846153846153846
+    },
+    {
+      "sourceMarkerId": "snp40332",
+      "markerId": "UA-IFASA-6016",
+      "chromosome": "19",
+      "position": 38977112,
+      "score": 0.8846153846153846
+    },
+    {
+      "sourceMarkerId": "snp21356",
+      "markerId": "Hapmap43732-BTA-94409",
+      "chromosome": "9",
+      "position": 18830838,
+      "score": 0.8833333333333333
+    },
+    {
+      "sourceMarkerId": "snp49201",
+      "markerId": "BTA-60935-no-rs",
+      "chromosome": "26",
+      "position": 23876476,
+      "score": 0.882554945054945
+    },
+    {
+      "sourceMarkerId": "snp19718",
+      "markerId": "BTB-01820765",
+      "chromosome": "8",
+      "position": 55291182,
+      "score": 0.8808379120879121
+    },
+    {
+      "sourceMarkerId": "snp17406",
+      "markerId": "Hapmap28133-BTA-149820",
+      "chromosome": "7",
+      "position": 58294551,
+      "score": 0.8808379120879121
+    },
+    {
+      "sourceMarkerId": "snp2557",
+      "markerId": "Hapmap25850-BTA-148345",
+      "chromosome": "1",
+      "position": 121925426,
+      "score": 0.8794642857142857
+    },
+    {
+      "sourceMarkerId": "snp39314",
+      "markerId": "ARS-BFGL-NGS-108618",
+      "chromosome": "18",
+      "position": 54704168,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp27561",
+      "markerId": "ARS-BFGL-NGS-17264",
+      "chromosome": "11",
+      "position": 105391422,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp5165",
+      "markerId": "ARS-BFGL-NGS-94696",
+      "chromosome": "2",
+      "position": 80970515,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp30256",
+      "markerId": "BTA-122758-no-rs",
+      "chromosome": "13",
+      "position": 43907827,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp44774",
+      "markerId": "BTA-54293-no-rs",
+      "chromosome": "22",
+      "position": 38169842,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp33690",
+      "markerId": "BTB-00591939",
+      "chromosome": "15",
+      "position": 32163701,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp1788",
+      "markerId": "Hapmap43254-BTA-38489",
+      "chromosome": "1",
+      "position": 86421573,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp17165",
+      "markerId": "Hapmap49311-BTA-78907",
+      "chromosome": "7",
+      "position": 45948544,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp9631",
+      "markerId": "Hapmap50070-BTA-70041",
+      "chromosome": "4",
+      "position": 40358616,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp51568",
+      "markerId": "Hapmap51965-BTA-101198",
+      "chromosome": "28",
+      "position": 36314835,
+      "score": 0.8791208791208791
+    },
+    {
+      "sourceMarkerId": "snp37939",
+      "markerId": "ARS-BFGL-NGS-110797",
+      "chromosome": "17",
+      "position": 66866843,
+      "score": 0.8781601123595506
+    },
+    {
+      "sourceMarkerId": "snp6960",
+      "markerId": "BTB-01155098",
+      "chromosome": "3",
+      "position": 39543882,
+      "score": 0.877906976744186
+    },
+    {
+      "sourceMarkerId": "snp23033",
+      "markerId": "ARS-BFGL-NGS-58052",
+      "chromosome": "9",
+      "position": 102811076,
+      "score": 0.8777777777777778
+    },
+    {
+      "sourceMarkerId": "snp32726",
+      "markerId": "ARS-BFGL-NGS-107586",
+      "chromosome": "14",
+      "position": 67529191,
+      "score": 0.8753434065934066
+    },
+    {
+      "sourceMarkerId": "snp27218",
+      "markerId": "ARS-BFGL-NGS-39719",
+      "chromosome": "11",
+      "position": 89081028,
+      "score": 0.8753434065934066
+    },
+    {
+      "sourceMarkerId": "snp16556",
+      "markerId": "ARS-BFGL-NGS-62491",
+      "chromosome": "7",
+      "position": 18794373,
+      "score": 0.8753434065934066
+    },
+    {
+      "sourceMarkerId": "snp48292",
+      "markerId": "Hapmap43304-BTA-59744",
+      "chromosome": "25",
+      "position": 25228586,
+      "score": 0.8753434065934066
+    },
+    {
+      "sourceMarkerId": "snp34853",
+      "markerId": "Hapmap47596-BTA-38603",
+      "chromosome": "16",
+      "position": 1575155,
+      "score": 0.8753434065934066
+    },
+    {
+      "sourceMarkerId": "snp11997",
+      "markerId": "ARS-BFGL-NGS-1251",
+      "chromosome": "5",
+      "position": 30639518,
+      "score": 0.875
+    },
+    {
+      "sourceMarkerId": "snp37434",
+      "markerId": "BTB-01954793",
+      "chromosome": "17",
+      "position": 44240753,
+      "score": 0.875
+    },
+    {
+      "sourceMarkerId": "snp35654",
+      "markerId": "ARS-BFGL-NGS-104135",
+      "chromosome": "16",
+      "position": 43424406,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp47289",
+      "markerId": "ARS-BFGL-NGS-1240",
+      "chromosome": "24",
+      "position": 40761481,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp6046",
+      "markerId": "ARS-BFGL-NGS-17529",
+      "chromosome": "2",
+      "position": 128695085,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp43925",
+      "markerId": "ARS-BFGL-NGS-29558",
+      "chromosome": "21",
+      "position": 68128825,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp10235",
+      "markerId": "ARS-BFGL-NGS-44314",
+      "chromosome": "4",
+      "position": 67822341,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp24479",
+      "markerId": "ARS-BFGL-NGS-44563",
+      "chromosome": "10",
+      "position": 67586540,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp39273",
+      "markerId": "ARS-BFGL-NGS-5032",
+      "chromosome": "18",
+      "position": 53132012,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp51299",
+      "markerId": "BTA-63797-no-rs",
+      "chromosome": "28",
+      "position": 23454854,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp20401",
+      "markerId": "BTB-00301689",
+      "chromosome": "8",
+      "position": 86718128,
+      "score": 0.8736263736263736
+    },
+    {
+      "sourceMarkerId": "snp1059",
+      "markerId": "Hapmap54644-rs29022483",
+      "chromosome": "1",
+      "position": 51845103,
+      "score": 0.8735632183908046
+    },
+    {
+      "sourceMarkerId": "snp48124",
+      "markerId": "Hapmap54366-rs29015052",
+      "chromosome": "25",
+      "position": 16564593,
+      "score": 0.8722222222222222
+    },
+    {
+      "sourceMarkerId": "snp30413",
+      "markerId": "ARS-BFGL-BAC-15732",
+      "chromosome": "13",
+      "position": 50950127,
+      "score": 0.8690476190476191
+    },
+    {
+      "sourceMarkerId": "snp49169",
+      "markerId": "Hapmap24165-BTA-60897",
+      "chromosome": "26",
+      "position": 22587068,
+      "score": 0.86875
+    },
+    {
+      "sourceMarkerId": "snp8789",
+      "markerId": "ARS-BFGL-NGS-104799",
+      "chromosome": "3",
+      "position": 120772981,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp28268",
+      "markerId": "ARS-BFGL-NGS-11300",
+      "chromosome": "12",
+      "position": 34602487,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp41418",
+      "markerId": "ARS-BFGL-NGS-113813",
+      "chromosome": "20",
+      "position": 21343153,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp39266",
+      "markerId": "ARS-BFGL-NGS-114962",
+      "chromosome": "18",
+      "position": 52716347,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp24794",
+      "markerId": "ARS-BFGL-NGS-115999",
+      "chromosome": "10",
+      "position": 83276820,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp6496",
+      "markerId": "ARS-BFGL-NGS-20009",
+      "chromosome": "3",
+      "position": 12917444,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp16504",
+      "markerId": "ARS-BFGL-NGS-2141",
+      "chromosome": "7",
+      "position": 16371434,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp13414",
+      "markerId": "ARS-BFGL-NGS-30168",
+      "chromosome": "5",
+      "position": 111313740,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp40062",
+      "markerId": "ARS-BFGL-NGS-37715",
+      "chromosome": "19",
+      "position": 27491890,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp5139",
+      "markerId": "ARS-BFGL-NGS-65317",
+      "chromosome": "2",
+      "position": 79414331,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp17781",
+      "markerId": "BTB-00318387",
+      "chromosome": "7",
+      "position": 73479074,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp18960",
+      "markerId": "BTB-01875318",
+      "chromosome": "8",
+      "position": 20507980,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp35627",
+      "markerId": "Hapmap30848-BTA-151525",
+      "chromosome": "16",
+      "position": 42314090,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp48956",
+      "markerId": "Hapmap48022-BTA-62041",
+      "chromosome": "26",
+      "position": 13078410,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp44531",
+      "markerId": "Hapmap50387-BTA-53912",
+      "chromosome": "22",
+      "position": 25030110,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp6965",
+      "markerId": "Hapmap51027-BTA-67630",
+      "chromosome": "3",
+      "position": 39841272,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp12217",
+      "markerId": "Hapmap58370-rs29014396",
+      "chromosome": "5",
+      "position": 43003607,
+      "score": 0.8681318681318682
+    },
+    {
+      "sourceMarkerId": "snp9",
+      "markerId": "ARS-BFGL-NGS-114208",
+      "chromosome": "1",
+      "position": 533815,
+      "score": 0.8674698795180723
+    },
+    {
+      "sourceMarkerId": "snp21075",
+      "markerId": "ARS-BFGL-NGS-26056",
+      "chromosome": "9",
+      "position": 3651455,
+      "score": 0.8674698795180723
+    },
+    {
+      "sourceMarkerId": "snp45616",
+      "markerId": "BTA-55613-no-rs",
+      "chromosome": "23",
+      "position": 15656140,
+      "score": 0.8669117647058824
+    },
+    {
+      "sourceMarkerId": "snp50771",
+      "markerId": "ARS-BFGL-NGS-56063",
+      "chromosome": "27",
+      "position": 43237090,
+      "score": 0.8666666666666667
+    },
+    {
+      "sourceMarkerId": "snp1716",
+      "markerId": "Hapmap27573-BTA-124304",
+      "chromosome": "1",
+      "position": 82855049,
+      "score": 0.8666666666666667
+    },
+    {
+      "sourceMarkerId": "snp18222",
+      "markerId": "DIAS-192",
+      "chromosome": "7",
+      "position": 94783893,
+      "score": 0.8662790697674418
+    },
+    {
+      "sourceMarkerId": "snp21377",
+      "markerId": "ARS-BFGL-NGS-17991",
+      "chromosome": "9",
+      "position": 20048411,
+      "score": 0.8660714285714286
+    },
+    {
+      "sourceMarkerId": "snp21368",
+      "markerId": "ARS-BFGL-NGS-20366",
+      "chromosome": "9",
+      "position": 19499043,
+      "score": 0.8660714285714286
+    },
+    {
+      "sourceMarkerId": "snp40970",
+      "markerId": "ARS-BFGL-NGS-109022",
+      "chromosome": "20",
+      "position": 1561788,
+      "score": 0.8643543956043956
+    },
+    {
+      "sourceMarkerId": "snp28518",
+      "markerId": "BTB-01194032",
+      "chromosome": "12",
+      "position": 49232404,
+      "score": 0.8643543956043956
+    },
+    {
+      "sourceMarkerId": "snp28371",
+      "markerId": "Hapmap40023-BTA-76828",
+      "chromosome": "12",
+      "position": 42086283,
+      "score": 0.8643543956043956
+    },
+    {
+      "sourceMarkerId": "snp4784",
+      "markerId": "Hapmap52390-rs29021802",
+      "chromosome": "2",
+      "position": 62163921,
+      "score": 0.8643543956043956
+    },
+    {
+      "sourceMarkerId": "snp42741",
+      "markerId": "ARS-BFGL-NGS-109184",
+      "chromosome": "21",
+      "position": 13735164,
+      "score": 0.8626373626373627
+    },
+    {
+      "sourceMarkerId": "snp19023",
+      "markerId": "ARS-BFGL-NGS-112336",
+      "chromosome": "8",
+      "position": 23409295,
+      "score": 0.8626373626373627
+    },
+    {
+      "sourceMarkerId": "snp43915",
+      "markerId": "ARS-BFGL-NGS-118403",
+      "chromosome": "21",
+      "position": 67645520,
+      "score": 0.8626373626373627
+    },
+    {
+      "sourceMarkerId": "snp2778",
+      "markerId": "ARS-BFGL-NGS-18903",
+      "chromosome": "1",
+      "position": 131721599,
+      "score": 0.8626373626373627
+    },
+    {
+      "sourceMarkerId": "snp43063",
+      "markerId": "ARS-BFGL-NGS-19530",
+      "chromosome": "21",
+      "position": 27506924,
+      "score": 0.8626373626373627
+    },
+    {
+      "sourceMarkerId": "snp30161",
+      "markerId": "ARS-BFGL-NGS-22093",
+      "chromosome": "13",
+      "position": 39766187,
+      "score": 0.8626373626373627
+    }
+  ],
+  "limitations": [
+    "Bali cohort is small; metrics are exploratory and have wide sampling uncertainty.",
+    "Unknown close relatives may occur across random folds; no pedigree groups were supplied.",
+    "Training-fold call-rate/MAF filtering and marker ranking avoid test-set selection leakage.",
+    "Physical spacing is used as a simple redundancy guard; this MVP does not claim LD pruning.",
+    "Repeated-fold standard deviations are descriptive, not inferential confidence intervals."
+  ]
+}

@@ -105,3 +105,27 @@ DriveKit/
 * **Academic Host:** SBM ITB (Sekolah Bisnis dan Manajemen) & SITH ITB (Sekolah Ilmu dan Teknologi Hayati), Institut Teknologi Bandung.
 * **Industry Sponsors & Mentors:** PathGen Diagnostic Nusantara, PT Alga Bioteknologi Indonesia (ALBITEC), Apookat, SoluSEA Venture Labs, Terrava.
 * **Government & Research Institutions:** BRIN (Badan Riset dan Inovasi Nasional), Kementerian Kesehatan RI (BGSi - Biomedical & Genome Science Initiative), BPOM RI, U.S. Department of Energy (DOE OTT / OCED / ARPA-E).
+
+---
+
+## BantengPanel MVP (implemented)
+
+BantengPanel evaluates Bali-versus-other-breed SNP panels using two public genotype cohorts, processed and benchmarked independently. It reports measured results, equal-size baselines, marker candidates, and limitations through a local static dashboard. The output is research-use-only and does not validate an assay or support breeding decisions.
+
+### Run locally
+
+Requires Python 3.11 or newer. On Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -e .
+python -m bantengpanel.cli fetch --dryad .\doi_10_5061_dryad_th092__v20150214.zip
+python -m bantengpanel.cli prepare
+python -m bantengpanel.cli run
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/apps/dashboard/`. The workflow, data provenance, scientific protocol, and validation roadmap are in [`docs/`](docs/).
+
+Raw archives and genotype matrices stay under ignored `data/`; generated public evidence is written to `artifacts/public/`. The Dryad archive is checksum-verified and Figshare is fetched and checksum-verified by the CLI.

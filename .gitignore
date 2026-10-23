@@ -5,7 +5,6 @@
 
 # Raw parser dumps
 .extracted_raw/
-*.json
 
 # Scratch files, test scripts and temporary images
 scratch/
@@ -13,6 +12,22 @@ scratch/
 *.png
 *.jpg
 *.jpeg
+
+# Genotypes and reproducible local caches
+data/raw/
+data/processed/
+*.zip
+tools/bin/
+artifacts/private/
+artifacts/qa/
+apps/dashboard/node_modules/
+apps/dashboard/.next/
+apps/dashboard/out/
+apps/dashboard/.openai/*.local.*
+.pytest_cache/
+*.egg-info/
+.env*
+!.env.example
 
 # Python / Environment
 __pycache__/
@@ -31,3 +46,7 @@ desktop.ini
 .claude/skills/
 .licenses/
 !.claude/settings.json
+
+# Static publication bundle
+/out/
+.chart-data-*/

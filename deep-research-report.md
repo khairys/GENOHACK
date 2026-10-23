@@ -1,5 +1,7 @@
 # BantengPanel MVP Implementation Blueprint
 
+> **Status note (24 Oktober 2026):** This file records the initial research blueprint and contains assumptions that were later corrected, including expected access to 102 Bali cattle genotypes. The implemented data sources, QC, analysis protocol, and limitations are documented in [`docs/`](docs/); use those documents and generated artifacts as the current implementation record.
+
 **Executive Technical Decision:** We propose an end-to-end **Python-based analysis pipeline** that selects population-specific SNP panels and a minimal web frontend for demonstration. The **primary dataset** will be the Bali cattle Illumina SNP50 genotypes (102 animals) reported by Sudrajad *et al.* (2022), complemented by a **baseline** dataset: the publicly available “WorldWideCattleDryad.zip” from Decker *et al.* (2014) (1,543 animals, 43,043 SNPs). We will **not** attempt whole-genome raw reads (PRJNA1108075) due to compute constraints. For implementation, use **PLINK2** for QC/LD pruning and **Python/Pandas/Scikit-learn** for selection and benchmarking. The backend API (FastAPI) will serve computed results to a simple Next.js/Tailwind dashboard. The MVP prioritizes the *scientific engine* (data processing and evidence) over UI polish. All components must be reproducible and data-driven, with no unverified claims.  
 
 **Key Architectural Choices:** 

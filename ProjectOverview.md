@@ -7,6 +7,8 @@
 **Project Type:** Bioinformatics, Computational Genomics, Decision Support Platform  
 **Development Stage:** Hackathon Minimum Viable Product (MVP)
 
+> **Status per 24 Oktober 2026:** MVP in-silico is implemented in `bantengpanel/`, with checksum-verified Dryad and Figshare data, a reproducible Python CLI, equal-size benchmark outputs, and a local static dashboard. In Dryad, the 8-SNP panel reached 0.962 balanced accuracy versus 0.940 for Global-MAF and 0.915 for random panels. At 48 SNP it reached 0.960 versus 0.969 and 0.962; Global-MAF was higher at sizes 16–200. Figshare reached near-ceiling scores for all methods from 24 SNP. With only 20 Dryad and 16 Figshare Bali animals, these are exploratory means, not evidence of a general advantage.
+
 ---
 
 ## 1. Project Description
@@ -129,29 +131,21 @@ Jika dilakukan simulasi hubungan kekerabatan, hasilnya harus diberi label sebaga
 
 ## 6. System Architecture Overview
 
-BantengPanel dibangun menggunakan tiga komponen utama.
+MVP berjalan melalui dua komponen yang dapat dipakai tanpa layanan backend.
 
 ### A. Scientific Engine
 
-**Technology:** Python, NumPy, Pandas, Scikit-learn, PLINK 2.
+**Technology:** Python, NumPy, Pandas, Scikit-learn.
 
-Bertanggung jawab untuk memproses data genomik, melakukan quality control, memilih marker SNP, menjalankan eksperimen benchmarking, dan menghasilkan keluaran CSV/JSON.
+CLI memverifikasi checksum, mengekstrak sumber data dengan aman, memeriksa sampel dan marker, menjalankan seleksi panel di training fold, dan menulis hasil CSV/JSON beserta manifest reproduksibilitas. Setiap cohort diproses sendiri karena kode alelnya berbeda.
 
-### B. Backend API
+### B. Static Web Dashboard
 
-**Technology:** Python FastAPI.
+**Technology:** HTML, CSS, JavaScript tanpa backend.
 
-Bertanggung jawab menyediakan hasil eksperimen, konfigurasi panel, metrik evaluasi, dan laporan untuk diakses aplikasi frontend.
+Dashboard membaca hasil yang dibuat oleh engine; ia tidak menghitung atau membuat metrik sendiri. Pengguna dapat memilih cohort, membandingkan balanced accuracy, melihat robustness, menelusuri kandidat marker, dan mengunduh CSV. Alur lokalnya tercatat di `docs/RUNBOOK.md`.
 
-Komputasi genomik utama dapat dijalankan secara offline dan hasilnya disimpan sebagai artefak yang dapat direproduksi.
-
-### C. Web Dashboard
-
-**Technology:** Next.js, React, Tailwind CSS, Recharts.
-
-Bertanggung jawab menampilkan hasil analisis dalam antarmuka interaktif yang mudah dipahami pengguna dan juri hackathon.
-
-Dashboard memungkinkan pengguna membandingkan ukuran panel, melihat grafik performa, mengeksplorasi SNP terpilih, dan mengunduh hasil analisis.
+FastAPI, login, unggah data, dan penyimpanan multi-pengguna ditunda sampai ada kebutuhan penggunaan nyata. Dashboard menyajikan hasil riset awal, bukan layanan produksi.
 
 ## 7. Scientific Validation
 

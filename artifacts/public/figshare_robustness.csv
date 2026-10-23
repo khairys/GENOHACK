@@ -1,0 +1,5 @@
+scenario,balancedAccuracyMean,balancedAccuracySD,baliRecallMean,folds
+genotype_error_01,1.0,0.0,1.0,20
+missing_05,1.0,0.0,1.0,20
+missing_10,1.0,0.0,1.0,20
+missing_20,1.0,0.0,1.0,20
