@@ -26,3 +26,8 @@ env/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Skill agen dipasang lokal dari upstream (lihat .claude/skills/SOURCES.md)
+.claude/skills/
+.licenses/
+!.claude/settings.json
