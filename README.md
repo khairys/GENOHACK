@@ -6,6 +6,8 @@ Prototipe riset untuk merancang dan mengevaluasi panel SNP minimal bagi riset an
 **Kode:** https://github.com/khairys/GENOHACK  
 **Rilis audited:** tag `mvp-v1.0` · sumber analisis: `mvp-v1.0-source`.
 
+Status: MVP komputasional telah diverifikasi. Wawancara, konfirmasi peran/kontribusi, latihan dan pengiriman kompetisi tetap memerlukan tindakan tim; tidak dilaporkan selesai otomatis.
+
 ## Mulai dari sini
 
 - [Paket dan status perbaikan audit](docs/AUDIT_IMPLEMENTATION_STATUS.md)
@@ -30,6 +32,8 @@ Dryad: 20 Bali dari 1.542 hewan setelah QC, 43.042 SNP autosomal. Figshare: 16 B
 Klasifikasi biner adalah pemeriksaan awal yang cepat mencapai plafon. Keunggulan umum tidak diasumsikan. Kurva, selisih per fold, S1, serta identitas commit dibaca dari [artefak](artifacts/public/benchmark.json); angka di deck dibangun dari artefak yang sama. Simulasi q mengukur campuran relatif terhadap pasangan referensi dan target pedigree, **belum memverifikasi kemurnian hewan nyata**. Hewan atipikal memerlukan konfirmasi; jangan menyebutnya terbukti introgresi.
 
 Tidak ada wawancara, LOI, penjualan, harga tervalidasi, penghematan assay, atau uji laboratorium yang diklaim. [Model bisnis](docs/BUSINESS_MODEL.md) membedakan sumber, hasil hitung, dan asumsi.
+
+Koreksi penting: frekuensi alel kelas yang tidak terobservasi kini dikecualikan, sehingga angka panel 8 SNP versi lama tidak dipertahankan. [Review kualitas data](artifacts/public/data_quality_review.json) dan [status audit](docs/AUDIT_IMPLEMENTATION_STATUS.md) menjelaskan perubahan tersebut.
 
 ## Menjalankan
 

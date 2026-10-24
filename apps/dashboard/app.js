@@ -60,7 +60,8 @@ function renderAncestry(){
   }
   $('ancestry-chart').innerHTML=html;
   $('ancestry-results').innerHTML=rows.map(r=>`<tr><td>${r.size}</td><td>${esc(r.method)}</td><td>${r.maeMean.toFixed(3)} ± ${(r.maeSD||0).toFixed(3)}</td><td>${r.bc2SensitivityAt95SpecificityMean.toFixed(3)}</td><td>${r.achievedSpecificityMean.toFixed(3)}</td></tr>`).join('');
-  const at48=rows.filter(r=>r.size===48);$('ancestry-finding').textContent=`Simulasi Bali × ${donor}, 48 SNP: ${at48.map(r=>`${r.method} MAE ${r.maeMean.toFixed(3)}`).join(' · ')}. ${current.ancestry.offspringPerGenerationPerFold} keturunan per generasi/donor/fold; metode memakai hewan simulasi yang sama.`;
+  const at48=rows.filter(r=>r.size===48), skipped=current.ancestry.skippedFolds.filter(r=>r.donorBreed===donor).length;
+  $('ancestry-finding').textContent=`Simulasi Bali × ${donor}, 48 SNP: ${at48.map(r=>`${r.method} MAE ${r.maeMean.toFixed(3)}`).join(' · ')}. ${current.ancestry.offspringPerGenerationPerFold} keturunan per generasi/donor/fold; metode memakai hewan simulasi yang sama. ${at48[0]?.folds||0} fold donor tersedia; ${skipped} dilewati karena donor tidak mencukupi.`;
   $('ancestry-link').href=`../../artifacts/public/${current.dataset}_ancestry_summary.csv`;
 }
 function renderPca(data){

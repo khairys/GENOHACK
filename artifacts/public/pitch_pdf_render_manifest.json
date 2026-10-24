@@ -1,7 +1,7 @@
 {
-  "sourceCommit": "2796296a92c1f736faaa71f0f9b1138ccafd4a61",
-  "pptxSha256": "36ff0ff65be66a55dc1387f5b70d94bed12f203b20cceafc235790afe0bf20ed",
-  "pdfSha256": "66a7c8c0c70f1701bfc77a76eed43dabef37030bae19bd9af46109641fbc65c2",
+  "sourceCommit": "fb784d54af1646058a083dfee05bd0a40879444d",
+  "pptxSha256": "e53e90cb5a509f8fa9ff010a2747c7701ee819ad63f54a6786b975becc7d5066",
+  "pdfSha256": "d59e4ab6683f5edb5a42a265bf01c314ed0727a67bbca56d5ddb4dfe0b44f396",
   "pages": [
     {
       "slide": 1,
@@ -21,7 +21,7 @@
     },
     {
       "slide": 5,
-      "pngSha256": "f3152aa7fc167e6d67233a48a09a1bfdefcd17fb06f6fa558f32befaf0b41e97"
+      "pngSha256": "b3dc1c3ffededbc4f11b827126cc49df094faa2c8e0b2af7373ab50dba10cfbb"
     },
     {
       "slide": 6,

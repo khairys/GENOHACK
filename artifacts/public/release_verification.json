@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "scope": "full_release",
+  "sourceCommit": "fb784d54af1646058a083dfee05bd0a40879444d",
+  "datasets": [
+    "dryad",
+    "figshare"
+  ],
+  "humanValidation": "pending_interviews_roles_rehearsal_submission",
+  "checkedAt": "2026-10-24T03:03:24.033442+00:00",
+  "technicalMvpComplete": true,
+  "competitionDoDComplete": false,
+  "unitTestsPassed": 8,
+  "sourceTag": "mvp-v1.0-source",
+  "releaseTag": "mvp-v1.0",
+  "reproducibility": {
+    "independentFullRuns": 2,
+    "cohortResultsIdentical": true,
+    "byteIdenticalCsvFiles": 18
+  },
+  "presentation": {
+    "slides": 11,
+    "visuallyReviewed": true,
+    "pdfPages": 11,
+    "nativeChartSourceValuesVerified": true
+  },
+  "videoDurationSeconds": 120,
+  "browserChecks": {
+    "desktop1280": true,
+    "mobile390": true,
+    "bothCohorts": true,
+    "bothDonors": true,
+    "panel8": true,
+    "csvDownload": true,
+    "assumptionCalculator": true,
+    "extractedOfflineNestedPath": true,
+    "timerControls": true
+  },
+  "ci": {
+    "sourceCommit": "fb784d54af1646058a083dfee05bd0a40879444d",
+    "conclusion": "success",
+    "url": "https://github.com/khairys/GENOHACK/actions/runs/40055445944"
+  },
+  "pendingHumanActions": [
+    "Actual interviews and permitted evidence",
+    "Confirm individual roles, qualifications and contribution timing",
+    "Timed team rehearsal",
+    "Competition submission with receipt",
+    "Organizer follow-up for operational information in historical Git commits"
+  ]
+}

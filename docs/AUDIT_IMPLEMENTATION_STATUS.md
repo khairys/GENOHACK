@@ -20,6 +20,8 @@ Dokumen ini menutup tindak lanjut terhadap `MVP_AUDIT_DAN_RENCANA_PERBAIKAN.md` 
 
 ## Cara menilai selesai
 
+Pemeriksaan akhir rilis: source `fb784d54af1646058a083dfee05bd0a40879444d` di `mvp-v1.0-source`, `gitDirty: false`; dua run menghasilkan seluruh hasil kohort yang identik dan 18 CSV identik byte demi byte. Delapan tes regresi lulus, termasuk CI Linux di GitHub. Deck 11 slide lolos pemeriksaan struktur/font/chart/table dan ditinjau visual; PDF, video 120 detik, unduhan CSV dan bundle offline diperiksa. Bukti rinci berada di `release_verification.json`.
+
 Rilis komputasional boleh disebut selesai setelah pemeriksaan kode/artefak, deck, demo dan cadangan lulus. **Definition of Done kompetisi secara keseluruhan belum otomatis terpenuhi**: konfirmasi tim, wawancara jika dilaporkan, latihan nyata dan bukti submission tetap memerlukan manusia. Tidak ada klaim wawancara, kemitraan, persetujuan tim, latihan atau pengiriman yang dibuat-buat untuk mencentang audit.
 
 ## Perbedaan terhadap angka audit historis

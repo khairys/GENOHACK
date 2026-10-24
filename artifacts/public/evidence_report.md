@@ -1,6 +1,6 @@
 # BantengPanel — Evidence report
 
-Generated: 2026-10-24T02:21:02.720130+00:00
+Generated: 2026-10-24T02:56:14.278902+00:00
 
 ## Scope and claim boundary
 
@@ -302,7 +302,7 @@ Skipped donor-fold combinations: 0 (insufficient donor animals).
 
 ## Reproducibility
 
-Source commit: `2796296a92c1f736faaa71f0f9b1138ccafd4a61`; dirty at invocation: `False`; identity captured before writes: `True`.
+Source commit: `fb784d54af1646058a083dfee05bd0a40879444d`; dirty at invocation: `False`; identity captured before writes: `True`.
 
 Python 3.13.0; scikit-learn 1.9.1. Scientific source/config SHA-256, archive checksums and QC counts are embedded in benchmark.json. The source tag identifies clean generation code; the release tag includes generated artifacts.
 

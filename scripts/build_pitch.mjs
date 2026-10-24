@@ -6,7 +6,9 @@ import {Presentation,PresentationFile} from '@oai/artifact-tool';
 
 const root=process.cwd(), work=path.join(root,'artifacts/qa/audited-pitch');
 const publicOut=path.join(root,'artifacts/pitch/BantengPanel_GENOHACK_2026_Audited.pptx');
-const out=path.join(work,'validated-output',`pitch-${Date.now()}.pptx`);
+const buildStamp=String(Date.now());
+const out=path.join(work,'validated-output',`pitch-${buildStamp}.pptx`);
+const receipt=path.join(work,`validation-${buildStamp}.json`);
 const skill='C:/Users/agath/.codex/plugins/cache/openai-primary-runtime/presentations/26.1022.11436/skills/presentations';
 const runtimePython='C:/Users/agath/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe';
 const facts=JSON.parse(await fs.readFile(path.join(root,'artifacts/public/pitch_facts.json'),'utf8'));
@@ -166,7 +168,8 @@ const finalization=await utils.finalizePresentation({workspaceDir:root,candidate
  layoutValidatorPath:path.join(skill,'container_tools/inspect_presentation_layout_geometry.py'),
  layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-bullet-geometry','--validate-heading-fit','--require-native-table-slide','8'],
  explicitTotalSlideCount:11,requiredNativeTableOwnerSlides:[8],requiredNativeChartOwnerSlides:[6],materializeLiteralChartWorkbooks:true,
- fontPolicy:{basis:'design',families:['Arial']},verifyArtifactToolImport:true,receiptPath:path.join(work,'validation.json'),expectedSlideSizeEmu:'12192000,6858000'});
+ fontPolicy:{basis:'design',families:['Arial']},verifyArtifactToolImport:true,receiptPath:receipt,expectedSlideSizeEmu:'12192000,6858000'});
 await fs.mkdir(path.dirname(publicOut),{recursive:true});
 await fs.copyFile(out,publicOut);
+await fs.copyFile(receipt,path.join(work,'validation.json'));
 console.log(JSON.stringify({out:publicOut,slides:p.slides.items.length,finalization}));
