@@ -68,7 +68,7 @@ def fetch(dryad_archive: Path | None = None) -> dict:
         dry.unlink()
     if not dry.exists():
         if not dryad_archive.exists():
-            raise FileNotFoundError(f"Dryad archive not found: {dryad_archive}")
+            raise FileNotFoundError(f"Dryad archive not found: {dryad_archive}. Download WorldWideCattleDryad.zip from https://doi.org/10.5061/dryad.th092 and pass --dryad PATH (individual ZIP or full dataset ZIP).")
         with zipfile.ZipFile(dryad_archive) as z:
             nested = next((n for n in z.namelist() if n.endswith("WorldWideCattleDryad.zip")), None)
             if nested:

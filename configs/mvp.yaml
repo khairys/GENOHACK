@@ -1,4 +1,4 @@
-protocolVersion: "1.0.0"
+protocolVersion: "2.0.0"
 seed: 20261024
 panelSizes: [8, 16, 24, 48, 72, 96, 128, 156, 200]
 outerFolds: 4
@@ -8,6 +8,11 @@ sampleMissingMax: 0.10
 snpCallMin: 0.90
 mafMin: 0.01
 minDistanceBp: 250000
+ancestry:
+  offspringPerGeneration: 64
+  donorBreeds:
+    dryad: [ONG, MAD]
+    figshare: [ONG, MAD]
 scenarios:
   - {id: clean, missingRate: 0.0, errorRate: 0.0}
   - {id: missing_05, missingRate: 0.05, errorRate: 0.0}

@@ -1,5 +1,6 @@
 # BantengPanel implementation documents
 
+- **[MVP audit & rencana perbaikan](MVP_AUDIT_DAN_RENCANA_PERBAIKAN.md) — status MVP, gap terhadap target hackathon, dan prioritas sampai submission final. Baca ini lebih dulu.**
 - [MVP specification](MVP_SPEC.md) — target user, workflow, scope, and done criteria.
 - [Scientific protocol](SCIENTIFIC_PROTOCOL.md) — QC, split, marker score, baselines, metrics, and claim limits.
 - [Dataset provenance](DATA_PROVENANCE.md) — source, license, allele coding, checksums, and exclusions.

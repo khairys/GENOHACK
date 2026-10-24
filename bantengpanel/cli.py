@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 import yaml
+from threadpoolctl import threadpool_limits
 
 from . import data
 from .analysis import OUT, run_all
@@ -25,6 +26,7 @@ def main() -> None:
     run.add_argument("--repeats", type=int)
     run.add_argument("--random-panels", type=int)
     sub.add_parser("report", help="Render Markdown evidence report from existing benchmark outputs")
+    sub.add_parser("figures", help="Render standalone PCA and simulation figures (requires dev extras)")
     args = parser.parse_args()
     if args.command == "fetch":
         print(json.dumps(data.fetch(args.dryad), indent=2))
@@ -36,18 +38,22 @@ def main() -> None:
         scenarios = config["scenarios"]
         missing_rates = tuple(s["missingRate"] for s in scenarios if s["missingRate"] > 0)
         genotype_error = next((s["errorRate"] for s in scenarios if s["errorRate"] > 0), 0.0)
-        result = run_all(seed=config["seed"], folds=args.folds or config["outerFolds"],
+        with threadpool_limits(limits=1):
+            result = run_all(seed=config["seed"], folds=args.folds or config["outerFolds"],
                          repeats=args.repeats or config["repeats"],
                          random_panels=args.random_panels or config["randomPanels"],
                          panel_sizes=tuple(config["panelSizes"]), min_distance=config["minDistanceBp"],
                          min_call_rate=config["snpCallMin"], min_maf=config["mafMin"],
                          sample_missing_max=config["sampleMissingMax"], missing_rates=missing_rates,
-                         genotype_error_rate=genotype_error)
+                         genotype_error_rate=genotype_error, ancestry_config=config.get("ancestry", {}), config_path=args.config)
         write_report(result, OUT / "evidence_report.md")
         print(json.dumps({"output": str(OUT), "datasets": [{"name": d["dataset"], "nBali": d["nBali"], "sizes": len(d["results"])} for d in result["datasets"]]}, indent=2))
     elif args.command == "report":
         manifest = json.loads((OUT / "benchmark.json").read_text(encoding="utf-8"))
         print(write_report(manifest, OUT / "evidence_report.md"))
+    elif args.command == "figures":
+        from .figures import render_figures
+        print(render_figures())
 
 
 if __name__ == "__main__":
