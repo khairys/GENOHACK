@@ -1,14 +1,22 @@
-# BantengPanel implementation documents
+# Dokumentasi BantengPanel
 
-- **[MVP audit & rencana perbaikan](MVP_AUDIT_DAN_RENCANA_PERBAIKAN.md) — status MVP, gap terhadap target hackathon, dan prioritas sampai submission final. Baca ini lebih dulu.**
-- [MVP specification](MVP_SPEC.md) — target user, workflow, scope, and done criteria.
-- [Scientific protocol](SCIENTIFIC_PROTOCOL.md) — QC, split, marker score, baselines, metrics, and claim limits.
-- [Dataset provenance](DATA_PROVENANCE.md) — source, license, allele coding, checksums, and exclusions.
-- [Architecture](ARCHITECTURE.md) — local pipeline, artifact contract, and static dashboard.
-- [Runbook](RUNBOOK.md) — install and run the entire workflow on Windows.
-- [Evidence report](../artifacts/public/evidence_report.md) — generated after the benchmark completes.
-- [Validation and business plan](VALIDATION_AND_BUSINESS.md) — customer discovery, beachhead hypothesis, economics, and 12-month validation.
-- [Interview guide](INTERVIEW_GUIDE.md) — questions, note template, and evidence rules.
-- [Execution roadmap](EXECUTION_ROADMAP.md) — hackathon schedule and post-hackathon milestones.
+- [Status implementasi audit](AUDIT_IMPLEMENTATION_STATUS.md)
+- [Audit historis dan rencana perbaikan](MVP_AUDIT_DAN_RENCANA_PERBAIKAN.md)
+- [Spesifikasi MVP](MVP_SPEC.md)
+- [Protokol ilmiah 2.0](SCIENTIFIC_PROTOCOL.md)
+- [Provenance sumber](DATA_PROVENANCE.md)
+- [Arsitektur dan kontrak artefak](ARCHITECTURE.md)
+- [Runbook](RUNBOOK.md)
+- [Model bisnis dan asumsi](BUSINESS_MODEL.md)
+- [Panduan wawancara](INTERVIEW_GUIDE.md)
+- [Log validasi primer](VALIDATION_LOG.md)
+- [Draf pendekatan](OUTREACH_DRAFTS.md)
+- [Kontribusi dan tim](CONTRIBUTIONS.md)
+- [Skrip pitch](PITCH_SCRIPT.md)
+- [Log latihan](REHEARSAL_LOG.md)
+- [Checklist submission](SUBMISSION_CHECKLIST.md)
+- [Ringkasan persyaratan panitia](COMPETITION_REQUIREMENTS.md)
+- [Privasi dan hak cipta](PRIVACY_AND_RIGHTS.md)
+- [Roadmap](EXECUTION_ROADMAP.md)
 
-`deep-research-report.md` is retained as the initial research notebook. Its early dataset assumptions are superseded by the data and protocol documents here.
+Angka ilmiah berasal dari [laporan pipeline](../artifacts/public/evidence_report.md), bukan perkiraan pada dokumen desain lama. Materi panitia tetap pada kanal resmi dan referensi lokal privat.

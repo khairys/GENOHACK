@@ -1,0 +1,36 @@
+{
+  "purpose": "Full-cohort descriptive review, not an additional validation metric",
+  "datasets": {
+    "dryad": {
+      "pooledPassingButNoBaliCalls": 20,
+      "markers": [
+        "rs29023125",
+        "rs43235827",
+        "rs43304414",
+        "rs42820459",
+        "rs43705620",
+        "rs41649007",
+        "rs41610999",
+        "rs41658008",
+        "rs43707856",
+        "rs43537771",
+        "rs41651510",
+        "rs110140070",
+        "rs109715014",
+        "rs109332736",
+        "rs41579960",
+        "rs41981595",
+        "rs41974885",
+        "rs110502742",
+        "rs29009818",
+        "rs41578626"
+      ],
+      "policy": "Missing class frequency is undefined and excluded, never set to zero"
+    },
+    "figshare": {
+      "pooledPassingButNoBaliCalls": 0,
+      "markers": [],
+      "policy": "Missing class frequency is undefined and excluded, never set to zero"
+    }
+  }
+}

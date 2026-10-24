@@ -46,6 +46,15 @@ def test_random_panel_enforces_spacing():
     assert np.diff(np.sort(m.iloc[panel].position.to_numpy())).min() >= 250000
 
 
+def test_absent_bali_genotypes_do_not_become_zero_allele_frequency():
+    # A very small minority can have no calls even though pooled call rate passes.
+    x = np.array([[-1, 2]] + [[1, 0]]*19, dtype=np.int8)
+    y = np.array([1] + [0]*19)
+    call, maf, delta = analysis._scores(x, y)
+    assert call[0] >= .9 and maf[0] >= .01
+    assert np.isnan(delta[0]) and np.isfinite(delta[1])
+
+
 def test_q_estimator_identifies_reference_endpoints_and_missing():
     p = np.full(200, .99)
     other = np.full(200, .01)
@@ -65,6 +74,14 @@ def test_mendelian_generations_have_expected_dosage():
 
 
 def test_run_identity_is_captured_before_outputs(monkeypatch, tmp_path):
+    for folder in ["bantengpanel", "configs", "data/raw", "data/processed"]:
+        (tmp_path / folder).mkdir(parents=True, exist_ok=True)
+    (tmp_path / "configs/mvp.yaml").write_text("seed: 1")
+    (tmp_path / "pyproject.toml").write_text("# fixture")
+    (tmp_path / "data/raw/manifest.json").write_text("{}")
+    (tmp_path / "data/processed/summary.json").write_text("{}")
+    monkeypatch.setattr(analysis, "ROOT", tmp_path)
+    monkeypatch.setattr(analysis, "PROCESSED", tmp_path / "data/processed")
     dirty = {"value": False}
     monkeypatch.setattr(analysis, "_git_dirty", lambda: dirty["value"])
     monkeypatch.setattr(analysis, "_git_commit", lambda: "source-before-write")

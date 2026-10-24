@@ -20,140 +20,140 @@
       "fold": 1,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 41944,
+      "eligibleMarkers": 41920,
       "baliTest": 5
     },
     {
       "fold": 2,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 42017,
+      "eligibleMarkers": 41945,
       "baliTest": 5
     },
     {
       "fold": 3,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41929,
+      "eligibleMarkers": 41893,
       "baliTest": 5
     },
     {
       "fold": 4,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41983,
+      "eligibleMarkers": 41945,
       "baliTest": 5
     },
     {
       "fold": 5,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 42011,
+      "eligibleMarkers": 41979,
       "baliTest": 5
     },
     {
       "fold": 6,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 41981,
+      "eligibleMarkers": 41956,
       "baliTest": 5
     },
     {
       "fold": 7,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41939,
+      "eligibleMarkers": 41744,
       "baliTest": 5
     },
     {
       "fold": 8,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41960,
+      "eligibleMarkers": 41933,
       "baliTest": 5
     },
     {
       "fold": 9,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 41973,
+      "eligibleMarkers": 41928,
       "baliTest": 5
     },
     {
       "fold": 10,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 41988,
+      "eligibleMarkers": 41965,
       "baliTest": 5
     },
     {
       "fold": 11,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 42013,
+      "eligibleMarkers": 41941,
       "baliTest": 5
     },
     {
       "fold": 12,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41919,
+      "eligibleMarkers": 41889,
       "baliTest": 5
     },
     {
       "fold": 13,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 42008,
+      "eligibleMarkers": 41987,
       "baliTest": 5
     },
     {
       "fold": 14,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 41931,
+      "eligibleMarkers": 41743,
       "baliTest": 5
     },
     {
       "fold": 15,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41971,
+      "eligibleMarkers": 41942,
       "baliTest": 5
     },
     {
       "fold": 16,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41959,
+      "eligibleMarkers": 41921,
       "baliTest": 5
     },
     {
       "fold": 17,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 41973,
+      "eligibleMarkers": 41891,
       "baliTest": 5
     },
     {
       "fold": 18,
       "train": 1156,
       "test": 386,
-      "eligibleMarkers": 41998,
+      "eligibleMarkers": 41973,
       "baliTest": 5
     },
     {
       "fold": 19,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41959,
+      "eligibleMarkers": 41912,
       "baliTest": 5
     },
     {
       "fold": 20,
       "train": 1157,
       "test": 385,
-      "eligibleMarkers": 41964,
+      "eligibleMarkers": 41940,
       "baliTest": 5
     }
   ],
@@ -161,44 +161,44 @@
     {
       "size": 8,
       "method": "BantengPanel",
-      "balancedAccuracyMean": 0.9620443086061611,
-      "balancedAccuracySD": 0.05807535427908453,
-      "baliRecallMean": 0.93,
-      "baliRecallSD": 0.11742858972247994,
+      "balancedAccuracyMean": 0.9453379265091864,
+      "balancedAccuracySD": 0.07384333234142931,
+      "baliRecallMean": 0.9,
+      "baliRecallSD": 0.15217718205053643,
       "folds": 20
     },
     {
       "size": 8,
       "method": "Global-MAF",
-      "balancedAccuracyMean": 0.9396555118110236,
-      "balancedAccuracySD": 0.05839767346204216,
-      "baliRecallMean": 0.95,
-      "baliRecallSD": 0.11002392084403617,
+      "balancedAccuracyMean": 0.943800248653129,
+      "balancedAccuracySD": 0.054617156309989055,
+      "baliRecallMean": 0.96,
+      "baliRecallSD": 0.1046296727561194,
       "folds": 20
     },
     {
       "size": 8,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9145765241515862,
-      "balancedAccuracySD": 0.03276341546546973,
-      "baliRecallMean": 0.9349999999999999,
-      "baliRecallSD": 0.07196084055303557,
+      "balancedAccuracyMean": 0.9140379541373118,
+      "balancedAccuracySD": 0.03298165147410437,
+      "baliRecallMean": 0.9326666666666668,
+      "baliRecallSD": 0.07321841074835353,
       "folds": 20
     },
     {
       "size": 16,
       "method": "BantengPanel",
-      "balancedAccuracyMean": 0.9354684694018511,
-      "balancedAccuracySD": 0.07216207660961177,
-      "baliRecallMean": 0.8800000000000001,
-      "baliRecallSD": 0.15078740698501036,
+      "balancedAccuracyMean": 0.949474892941014,
+      "balancedAccuracySD": 0.0685260323975175,
+      "baliRecallMean": 0.9,
+      "baliRecallSD": 0.13764944032233706,
       "folds": 20
     },
     {
       "size": 16,
       "method": "Global-MAF",
-      "balancedAccuracyMean": 0.951140350877193,
-      "balancedAccuracySD": 0.048256137238046046,
+      "balancedAccuracyMean": 0.9506798245614035,
+      "balancedAccuracySD": 0.04791378913489008,
       "baliRecallMean": 0.93,
       "baliRecallSD": 0.09787209698591856,
       "folds": 20
@@ -206,17 +206,17 @@
     {
       "size": 16,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9412322431735506,
-      "balancedAccuracySD": 0.04353900466230481,
-      "baliRecallMean": 0.924,
-      "baliRecallSD": 0.0948103678294373,
+      "balancedAccuracyMean": 0.9422343383063959,
+      "balancedAccuracySD": 0.042058152499685655,
+      "baliRecallMean": 0.9296666666666666,
+      "baliRecallSD": 0.09010649969091959,
       "folds": 20
     },
     {
       "size": 24,
       "method": "BantengPanel",
-      "balancedAccuracyMean": 0.949474374913662,
-      "balancedAccuracySD": 0.06843007735945447,
+      "balancedAccuracyMean": 0.9498029769305154,
+      "balancedAccuracySD": 0.0686755733992136,
       "baliRecallMean": 0.9,
       "baliRecallSD": 0.13764944032233706,
       "folds": 20
@@ -224,8 +224,8 @@
     {
       "size": 24,
       "method": "Global-MAF",
-      "balancedAccuracyMean": 0.9582989708523277,
-      "balancedAccuracySD": 0.0495465038669231,
+      "balancedAccuracyMean": 0.9580358129575908,
+      "balancedAccuracySD": 0.04935639675560359,
       "baliRecallMean": 0.93,
       "baliRecallSD": 0.09787209698591856,
       "folds": 20
@@ -233,17 +233,17 @@
     {
       "size": 24,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.954580841046185,
-      "balancedAccuracySD": 0.041177848305978995,
-      "baliRecallMean": 0.9343333333333333,
-      "baliRecallSD": 0.08746661852801406,
+      "balancedAccuracyMean": 0.9524894207303035,
+      "balancedAccuracySD": 0.04466946753819648,
+      "baliRecallMean": 0.9270000000000002,
+      "baliRecallSD": 0.09279229147254167,
       "folds": 20
     },
     {
       "size": 48,
       "method": "BantengPanel",
-      "balancedAccuracyMean": 0.9598687664041995,
-      "balancedAccuracySD": 0.06797566369971533,
+      "balancedAccuracyMean": 0.9598031496062992,
+      "balancedAccuracySD": 0.0679355077475878,
       "baliRecallMean": 0.9199999999999999,
       "baliRecallSD": 0.1361114094757441,
       "folds": 20
@@ -260,10 +260,10 @@
     {
       "size": 48,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9615942752221762,
-      "balancedAccuracySD": 0.0476048317996596,
-      "baliRecallMean": 0.929,
-      "baliRecallSD": 0.09680933211021404,
+      "balancedAccuracyMean": 0.9627652875627388,
+      "balancedAccuracySD": 0.04581869440544322,
+      "baliRecallMean": 0.9313333333333335,
+      "baliRecallSD": 0.0931853463369097,
       "folds": 20
     },
     {
@@ -287,10 +287,10 @@
     {
       "size": 72,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9649386828291201,
-      "balancedAccuracySD": 0.043335725931619655,
-      "baliRecallMean": 0.9326666666666668,
-      "baliRecallSD": 0.08753679259876682,
+      "balancedAccuracyMean": 0.9671709432702491,
+      "balancedAccuracySD": 0.04386969975219087,
+      "baliRecallMean": 0.937,
+      "baliRecallSD": 0.08853518810147594,
       "folds": 20
     },
     {
@@ -314,19 +314,19 @@
     {
       "size": 96,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9678413685131464,
-      "balancedAccuracySD": 0.04500294445575869,
-      "baliRecallMean": 0.9373333333333334,
-      "baliRecallSD": 0.09064808891196659,
+      "balancedAccuracyMean": 0.9680495752175714,
+      "balancedAccuracySD": 0.04309911454939805,
+      "baliRecallMean": 0.9376666666666666,
+      "baliRecallSD": 0.08679545087386577,
       "folds": 20
     },
     {
       "size": 128,
       "method": "BantengPanel",
-      "balancedAccuracyMean": 0.95,
-      "balancedAccuracySD": 0.06882472016116851,
-      "baliRecallMean": 0.9,
-      "baliRecallSD": 0.13764944032233706,
+      "balancedAccuracyMean": 0.9550000000000001,
+      "balancedAccuracySD": 0.06863327411532594,
+      "baliRecallMean": 0.9099999999999999,
+      "baliRecallSD": 0.13726654823065193,
       "folds": 20
     },
     {
@@ -341,10 +341,10 @@
     {
       "size": 128,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9681324941290234,
-      "balancedAccuracySD": 0.04629094166178008,
-      "baliRecallMean": 0.9373333333333335,
-      "baliRecallSD": 0.09301700781410913,
+      "balancedAccuracyMean": 0.9669636805267763,
+      "balancedAccuracySD": 0.04639473550543992,
+      "baliRecallMean": 0.9350000000000002,
+      "baliRecallSD": 0.09312947661833314,
       "folds": 20
     },
     {
@@ -368,10 +368,10 @@
     {
       "size": 156,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9682463910761155,
-      "balancedAccuracySD": 0.044428371137955905,
-      "baliRecallMean": 0.9373333333333335,
-      "baliRecallSD": 0.08916506802961083,
+      "balancedAccuracyMean": 0.9674305670672745,
+      "balancedAccuracySD": 0.045371730366033515,
+      "baliRecallMean": 0.9356666666666668,
+      "baliRecallSD": 0.09103113020646648,
       "folds": 20
     },
     {
@@ -395,40 +395,40 @@
     {
       "size": 200,
       "method": "Random-mean",
-      "balancedAccuracyMean": 0.9658996465902288,
-      "balancedAccuracySD": 0.047926001229443106,
-      "baliRecallMean": 0.9323333333333335,
-      "baliRecallSD": 0.0960573659011095,
+      "balancedAccuracyMean": 0.9677023587512087,
+      "balancedAccuracySD": 0.045572651388088824,
+      "baliRecallMean": 0.9360000000000002,
+      "baliRecallSD": 0.09136777427210635,
       "folds": 20
     }
   ],
   "robustness": [
     {
       "scenario": "genotype_error_01",
-      "balancedAccuracyMean": 0.9648687664041995,
-      "balancedAccuracySD": 0.0670111432100659,
-      "baliRecallMean": 0.93,
-      "folds": 20
-    },
-    {
-      "scenario": "missing_05",
-      "balancedAccuracyMean": 0.9598687664041995,
-      "balancedAccuracySD": 0.06797566369971533,
+      "balancedAccuracyMean": 0.959737532808399,
+      "balancedAccuracySD": 0.06789526129327965,
       "baliRecallMean": 0.9199999999999999,
       "folds": 20
     },
     {
+      "scenario": "missing_05",
+      "balancedAccuracyMean": 0.9549343832020998,
+      "balancedAccuracySD": 0.06858860035640524,
+      "baliRecallMean": 0.9099999999999999,
+      "folds": 20
+    },
+    {
       "scenario": "missing_10",
-      "balancedAccuracyMean": 0.9550000000000001,
-      "balancedAccuracySD": 0.06863327411532597,
+      "balancedAccuracyMean": 0.9549343832020998,
+      "balancedAccuracySD": 0.06858860035640525,
       "baliRecallMean": 0.9099999999999999,
       "folds": 20
     },
     {
       "scenario": "missing_20",
-      "balancedAccuracyMean": 0.9399343832020998,
-      "balancedAccuracySD": 0.07533928722764514,
-      "baliRecallMean": 0.8800000000000001,
+      "balancedAccuracyMean": 0.9349999999999999,
+      "balancedAccuracySD": 0.06708203932499367,
+      "baliRecallMean": 0.8699999999999999,
       "folds": 20
     }
   ],
@@ -446,41 +446,6 @@
       "chromosome": "21",
       "position": 57870643,
       "score": 0.9886892880904857
-    },
-    {
-      "sourceMarkerId": "rs41610999",
-      "markerId": "rs41610999",
-      "chromosome": "6",
-      "position": 70349791,
-      "score": 0.98342175066313
-    },
-    {
-      "sourceMarkerId": "rs110140070",
-      "markerId": "rs110140070",
-      "chromosome": "14",
-      "position": 53082514,
-      "score": 0.973342939481268
-    },
-    {
-      "sourceMarkerId": "rs41651510",
-      "markerId": "rs41651510",
-      "chromosome": "10",
-      "position": 70973402,
-      "score": 0.9692832764505119
-    },
-    {
-      "sourceMarkerId": "rs41649007",
-      "markerId": "rs41649007",
-      "chromosome": "5",
-      "position": 73898858,
-      "score": 0.9622132253711201
-    },
-    {
-      "sourceMarkerId": "rs29023125",
-      "markerId": "rs29023125",
-      "chromosome": "1",
-      "position": 46251987,
-      "score": 0.961895294897283
     },
     {
       "sourceMarkerId": "rs41576290",
@@ -502,13 +467,6 @@
       "chromosome": "28",
       "position": 3710024,
       "score": 0.9552042160737813
-    },
-    {
-      "sourceMarkerId": "rs43537771",
-      "markerId": "rs43537771",
-      "chromosome": "9",
-      "position": 88017265,
-      "score": 0.9459731543624161
     },
     {
       "sourceMarkerId": "rs109039421",
@@ -635,13 +593,6 @@
       "chromosome": "2",
       "position": 61800404,
       "score": 0.9071066846725186
-    },
-    {
-      "sourceMarkerId": "rs43235827",
-      "markerId": "rs43235827",
-      "chromosome": "1",
-      "position": 50857462,
-      "score": 0.906361686919228
     },
     {
       "sourceMarkerId": "rs109671203",
@@ -1274,13 +1225,6 @@
       "score": 0.858377135348226
     },
     {
-      "sourceMarkerId": "rs41981595",
-      "markerId": "rs41981595",
-      "chromosome": "21",
-      "position": 26662447,
-      "score": 0.858
-    },
-    {
       "sourceMarkerId": "rs29012403",
       "markerId": "rs29012403",
       "chromosome": "3",
@@ -1799,20 +1743,6 @@
       "score": 0.8403601842803294
     },
     {
-      "sourceMarkerId": "rs41578626",
-      "markerId": "rs41578626",
-      "chromosome": "24",
-      "position": 19118430,
-      "score": 0.8403054448871182
-    },
-    {
-      "sourceMarkerId": "rs42820459",
-      "markerId": "rs42820459",
-      "chromosome": "3",
-      "position": 40654331,
-      "score": 0.8399857448325018
-    },
-    {
       "sourceMarkerId": "rs41820187",
       "markerId": "rs41820187",
       "chromosome": "16",
@@ -1832,6 +1762,76 @@
       "chromosome": "22",
       "position": 59325992,
       "score": 0.8394952251023192
+    },
+    {
+      "sourceMarkerId": "rs43661550",
+      "markerId": "rs43661550",
+      "chromosome": "11",
+      "position": 394772,
+      "score": 0.8392694063926941
+    },
+    {
+      "sourceMarkerId": "rs43697439",
+      "markerId": "rs43697439",
+      "chromosome": "12",
+      "position": 48548890,
+      "score": 0.8388157894736842
+    },
+    {
+      "sourceMarkerId": "rs42043233",
+      "markerId": "rs42043233",
+      "chromosome": "4",
+      "position": 89299743,
+      "score": 0.8387919684002634
+    },
+    {
+      "sourceMarkerId": "rs43475703",
+      "markerId": "rs43475703",
+      "chromosome": "6",
+      "position": 72798255,
+      "score": 0.8382314266929651
+    },
+    {
+      "sourceMarkerId": "rs43124004",
+      "markerId": "rs43124004",
+      "chromosome": "15",
+      "position": 5504157,
+      "score": 0.8381266490765171
+    },
+    {
+      "sourceMarkerId": "rs110967473",
+      "markerId": "rs110967473",
+      "chromosome": "7",
+      "position": 93869009,
+      "score": 0.8379727936297279
+    },
+    {
+      "sourceMarkerId": "rs109511741",
+      "markerId": "rs109511741",
+      "chromosome": "13",
+      "position": 84002346,
+      "score": 0.8379721669980119
+    },
+    {
+      "sourceMarkerId": "rs109369566",
+      "markerId": "rs109369566",
+      "chromosome": "1",
+      "position": 139590378,
+      "score": 0.8379434954007885
+    },
+    {
+      "sourceMarkerId": "rs41570936",
+      "markerId": "rs41570936",
+      "chromosome": "6",
+      "position": 35577199,
+      "score": 0.8378872775214239
+    },
+    {
+      "sourceMarkerId": "rs110142488",
+      "markerId": "rs110142488",
+      "chromosome": "2",
+      "position": 89374373,
+      "score": 0.8373193166885676
     }
   ],
   "limitations": [
@@ -1839,6 +1839,2477 @@
     "Unknown close relatives may occur across random folds; no pedigree groups were supplied.",
     "Training-fold call-rate/MAF filtering and marker ranking avoid test-set selection leakage.",
     "Physical spacing is used as a simple redundancy guard; this MVP does not claim LD pruning.",
-    "Repeated-fold standard deviations are descriptive, not inferential confidence intervals."
-  ]
+    "Repeated-fold standard deviations are descriptive, not inferential confidence intervals.",
+    "Modal imputation is fitted on pooled training animals and may favor the much larger comparator group."
+  ],
+  "atypicalSamples": [
+    {
+      "sampleId": "615:615520410",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9948717948717949,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520420",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9948717948717949,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520430",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9948453608247423,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520440",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520450",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9948453608247423,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520460",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9947089947089947,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520480",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520490",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520510",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520520",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520530",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520540",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520550",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 1.0,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520640",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9947916666666666,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520660",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9946808510638298,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520670",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 5,
+      "evaluations": 5,
+      "baliSimilarity": 0.49032258064516127,
+      "similarityMarkers": 200,
+      "atypicalReview": true
+    },
+    {
+      "sampleId": "615:615520680",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.783625730994152,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520690",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 3,
+      "evaluations": 5,
+      "baliSimilarity": 0.58125,
+      "similarityMarkers": 200,
+      "atypicalReview": true
+    },
+    {
+      "sampleId": "615:615520700",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9944444444444445,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "615:615520710",
+      "breed": "BALI",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.9945652173913043,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "618:618521020",
+      "breed": "MAD",
+      "panelSize": 48,
+      "misclassifiedRepeats": 1,
+      "evaluations": 5,
+      "baliSimilarity": 0.33879781420765026,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "618:618521030",
+      "breed": "MAD",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.3224043715846995,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "618:618521050",
+      "breed": "MAD",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.2737430167597765,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "618:618521060",
+      "breed": "MAD",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.2711864406779661,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "618:618521070",
+      "breed": "MAD",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.3021978021978022,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "618:618521080",
+      "breed": "MAD",
+      "panelSize": 48,
+      "misclassifiedRepeats": 2,
+      "evaluations": 5,
+      "baliSimilarity": 0.31891891891891894,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    },
+    {
+      "sampleId": "618:618521100",
+      "breed": "MAD",
+      "panelSize": 48,
+      "misclassifiedRepeats": 0,
+      "evaluations": 5,
+      "baliSimilarity": 0.28888888888888886,
+      "similarityMarkers": 200,
+      "atypicalReview": false
+    }
+  ],
+  "pairedComparisons": [
+    {
+      "size": 8,
+      "meanDifference": 0.0015376778560574678,
+      "wins": 14,
+      "ties": 0,
+      "losses": 6,
+      "folds": 20
+    },
+    {
+      "size": 16,
+      "meanDifference": -0.0012049316203895267,
+      "wins": 16,
+      "ties": 0,
+      "losses": 4,
+      "folds": 20
+    },
+    {
+      "size": 24,
+      "meanDifference": -0.008232836027075563,
+      "wins": 15,
+      "ties": 1,
+      "losses": 4,
+      "folds": 20
+    },
+    {
+      "size": 48,
+      "meanDifference": -0.008817861583091568,
+      "wins": 10,
+      "ties": 7,
+      "losses": 3,
+      "folds": 20
+    },
+    {
+      "size": 72,
+      "meanDifference": -0.019080846802044478,
+      "wins": 8,
+      "ties": 8,
+      "losses": 4,
+      "folds": 20
+    },
+    {
+      "size": 96,
+      "meanDifference": -0.019605953861030534,
+      "wins": 4,
+      "ties": 12,
+      "losses": 4,
+      "folds": 20
+    },
+    {
+      "size": 128,
+      "meanDifference": -0.02480297693051527,
+      "wins": 3,
+      "ties": 13,
+      "losses": 4,
+      "folds": 20
+    },
+    {
+      "size": 156,
+      "meanDifference": -0.024934210526315788,
+      "wins": 1,
+      "ties": 15,
+      "losses": 4,
+      "folds": 20
+    },
+    {
+      "size": 200,
+      "meanDifference": -0.019999999999999997,
+      "wins": 0,
+      "ties": 16,
+      "losses": 4,
+      "folds": 20
+    }
+  ],
+  "randomPanelPolicy": "30 random-priority panels per fold; nested prefixes across sizes; same 250000 bp spacing as ranked methods.",
+  "ancestry": {
+    "experiment": "S1",
+    "simulationOnly": true,
+    "offspringPerGenerationPerFold": 64,
+    "donorBreeds": [
+      "ONG",
+      "MAD"
+    ],
+    "qGridStep": 0.01,
+    "results": [
+      {
+        "donorBreed": "MAD",
+        "size": 8,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.0871383101851852,
+        "pureMAEMean": 0.048111111111111104,
+        "f1MAEMean": 0.0984809027777778,
+        "bc1MAEMean": 0.08719618055555556,
+        "bc2MAEMean": 0.07573784722222224,
+        "bc2SensitivityAt95SpecificityMean": 0.3524305555555556,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.015832007735061392,
+        "pureMAESD": 0.04630066558902721,
+        "f1MAESD": 0.03538902941457186,
+        "bc1MAESD": 0.013802276982548276,
+        "bc2MAESD": 0.017506383876598974,
+        "bc2SensitivityAt95SpecificitySD": 0.3293797011669809,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 8,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.2397222222222222,
+        "pureMAEMean": 0.2104444444444444,
+        "f1MAEMean": 0.24927951388888892,
+        "bc1MAEMean": 0.24692708333333335,
+        "bc2MAEMean": 0.2229600694444444,
+        "bc2SensitivityAt95SpecificityMean": 0.15104166666666666,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.06126151133574575,
+        "pureMAESD": 0.13893977629861254,
+        "f1MAESD": 0.054275764619446235,
+        "bc1MAESD": 0.06455113148015028,
+        "bc2MAESD": 0.08446637672230387,
+        "bc2SensitivityAt95SpecificitySD": 0.12614366517866,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 8,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.22519791666666666,
+        "pureMAEMean": 0.08033703703703703,
+        "f1MAEMean": 0.28174450231481485,
+        "bc1MAEMean": 0.22422771990740742,
+        "bc2MAEMean": 0.16962152777777778,
+        "bc2SensitivityAt95SpecificityMean": 0.15844907407407408,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.012461080862533372,
+        "pureMAESD": 0.058705274605621464,
+        "f1MAESD": 0.0246260588982356,
+        "bc1MAESD": 0.012873201522745688,
+        "bc2MAESD": 0.02947375030352698,
+        "bc2SensitivityAt95SpecificitySD": 0.06657650237904414,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 16,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07293402777777777,
+        "pureMAEMean": 0.04588888888888889,
+        "f1MAEMean": 0.07924479166666668,
+        "bc1MAEMean": 0.07344618055555557,
+        "bc2MAEMean": 0.06611111111111112,
+        "bc2SensitivityAt95SpecificityMean": 0.3576388888888889,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.011078629631771876,
+        "pureMAESD": 0.03724306313441453,
+        "f1MAESD": 0.024982889939953668,
+        "bc1MAESD": 0.010855055904496608,
+        "bc2MAESD": 0.013567459881150707,
+        "bc2SensitivityAt95SpecificitySD": 0.3947716994019364,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 16,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.1730063657407407,
+        "pureMAEMean": 0.10944444444444444,
+        "f1MAEMean": 0.18018229166666666,
+        "bc1MAEMean": 0.18513888888888888,
+        "bc2MAEMean": 0.15369791666666666,
+        "bc2SensitivityAt95SpecificityMean": 0.1875,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02807336744310703,
+        "pureMAESD": 0.07034304365642471,
+        "f1MAESD": 0.032940718062601175,
+        "bc1MAESD": 0.02912138685897134,
+        "bc2MAESD": 0.037557592111100824,
+        "bc2SensitivityAt95SpecificitySD": 0.15698357210792696,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 16,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.18068865740740742,
+        "pureMAEMean": 0.0687,
+        "f1MAEMean": 0.22324884259259262,
+        "bc1MAEMean": 0.1823324652777778,
+        "bc2MAEMean": 0.1364846643518519,
+        "bc2SensitivityAt95SpecificityMean": 0.19557291666666665,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.012084514570671388,
+        "pureMAESD": 0.06379162257782059,
+        "f1MAESD": 0.013603734495699502,
+        "bc1MAESD": 0.011399446815320152,
+        "bc2MAESD": 0.031198574898956374,
+        "bc2SensitivityAt95SpecificitySD": 0.12191482846986833,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 24,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07015046296296297,
+        "pureMAEMean": 0.04822222222222221,
+        "f1MAEMean": 0.07941840277777779,
+        "bc1MAEMean": 0.06901909722222224,
+        "bc2MAEMean": 0.062013888888888896,
+        "bc2SensitivityAt95SpecificityMean": 0.328125,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.012217222336833871,
+        "pureMAESD": 0.03640871834110382,
+        "f1MAESD": 0.026463472716171447,
+        "bc1MAESD": 0.012162470239108403,
+        "bc2MAESD": 0.011096000818797355,
+        "bc2SensitivityAt95SpecificitySD": 0.4039812213530257,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 24,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.15734375,
+        "pureMAEMean": 0.11,
+        "f1MAEMean": 0.15674479166666663,
+        "bc1MAEMean": 0.17064236111111108,
+        "bc2MAEMean": 0.1446440972222222,
+        "bc2SensitivityAt95SpecificityMean": 0.21180555555555555,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.031619693335610835,
+        "pureMAESD": 0.07731372300378428,
+        "f1MAESD": 0.0294200047338304,
+        "bc1MAESD": 0.037315526995378344,
+        "bc2MAESD": 0.043275618978152096,
+        "bc2SensitivityAt95SpecificitySD": 0.17293475277491294,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 24,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.16314699074074077,
+        "pureMAEMean": 0.0658074074074074,
+        "f1MAEMean": 0.19933449074074072,
+        "bc1MAEMean": 0.16523495370370372,
+        "bc2MAEMean": 0.12487152777777781,
+        "bc2SensitivityAt95SpecificityMean": 0.19933449074074072,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.013583837536023755,
+        "pureMAESD": 0.0646846463336892,
+        "f1MAESD": 0.013985691034165462,
+        "bc1MAESD": 0.011976835862452198,
+        "bc2MAESD": 0.031780139066289695,
+        "bc2SensitivityAt95SpecificitySD": 0.15585302979097868,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 48,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07229456018518521,
+        "pureMAEMean": 0.04611111111111111,
+        "f1MAEMean": 0.08536458333333334,
+        "bc1MAEMean": 0.07086805555555559,
+        "bc2MAEMean": 0.06065104166666668,
+        "bc2SensitivityAt95SpecificityMean": 0.3914930555555556,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.016669734630907405,
+        "pureMAESD": 0.04179767639036872,
+        "f1MAESD": 0.025325999486693507,
+        "bc1MAESD": 0.01629696816479614,
+        "bc2MAESD": 0.018669500141243658,
+        "bc2SensitivityAt95SpecificitySD": 0.4400030883753207,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 48,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.13208912037037035,
+        "pureMAEMean": 0.08344444444444445,
+        "f1MAEMean": 0.13175347222222225,
+        "bc1MAEMean": 0.142578125,
+        "bc2MAEMean": 0.12193576388888887,
+        "bc2SensitivityAt95SpecificityMean": 0.22916666666666666,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02866435391088467,
+        "pureMAESD": 0.08424838781646331,
+        "f1MAESD": 0.028169009458128346,
+        "bc1MAESD": 0.031384098769291775,
+        "bc2MAESD": 0.0380205951594071,
+        "bc2SensitivityAt95SpecificitySD": 0.20167041399856586,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 48,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.14363339120370372,
+        "pureMAEMean": 0.06267407407407406,
+        "f1MAEMean": 0.17054890046296295,
+        "bc1MAEMean": 0.1465413773148148,
+        "bc2MAEMean": 0.11380989583333334,
+        "bc2SensitivityAt95SpecificityMean": 0.21822916666666667,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.015297649248268933,
+        "pureMAESD": 0.06543095503309737,
+        "f1MAESD": 0.01610415479015707,
+        "bc1MAESD": 0.013710535089576127,
+        "bc2MAESD": 0.030594719499370298,
+        "bc2SensitivityAt95SpecificitySD": 0.20482267246284105,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 72,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07619212962962964,
+        "pureMAEMean": 0.04455555555555556,
+        "f1MAEMean": 0.09212673611111111,
+        "bc1MAEMean": 0.07376736111111111,
+        "bc2MAEMean": 0.06268229166666667,
+        "bc2SensitivityAt95SpecificityMean": 0.4175347222222222,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.016614644693100096,
+        "pureMAESD": 0.04104405412584102,
+        "f1MAESD": 0.023052670251492793,
+        "bc1MAESD": 0.016553123116380353,
+        "bc2MAESD": 0.017875939178587062,
+        "bc2SensitivityAt95SpecificitySD": 0.46036637584668627,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 72,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.12290798611111112,
+        "pureMAEMean": 0.08033333333333334,
+        "f1MAEMean": 0.12565972222222224,
+        "bc1MAEMean": 0.12936631944444443,
+        "bc2MAEMean": 0.11369791666666666,
+        "bc2SensitivityAt95SpecificityMean": 0.23697916666666666,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.03046450107586984,
+        "pureMAESD": 0.08218272324521743,
+        "f1MAESD": 0.02461155922587179,
+        "bc1MAESD": 0.03377732724944674,
+        "bc2MAESD": 0.041183031088451366,
+        "bc2SensitivityAt95SpecificitySD": 0.2088936246404882,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 72,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.13601128472222224,
+        "pureMAEMean": 0.061577777777777766,
+        "f1MAEMean": 0.15814091435185187,
+        "bc1MAEMean": 0.1393504050925926,
+        "bc2MAEMean": 0.11054253472222222,
+        "bc2SensitivityAt95SpecificityMean": 0.2269965277777778,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.016495703694462537,
+        "pureMAESD": 0.0650320504189999,
+        "f1MAESD": 0.01758852342875591,
+        "bc1MAESD": 0.015476938687776111,
+        "bc2MAESD": 0.03021889522562534,
+        "bc2SensitivityAt95SpecificitySD": 0.22901560654629807,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 96,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07950231481481483,
+        "pureMAEMean": 0.043222222222222224,
+        "f1MAEMean": 0.0982204861111111,
+        "bc1MAEMean": 0.07645833333333335,
+        "bc2MAEMean": 0.06382812500000003,
+        "bc2SensitivityAt95SpecificityMean": 0.4331597222222222,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.014823114335089644,
+        "pureMAESD": 0.03956313726267622,
+        "f1MAESD": 0.019563843311043477,
+        "bc1MAESD": 0.015216064127650242,
+        "bc2MAESD": 0.016615589338127873,
+        "bc2SensitivityAt95SpecificitySD": 0.4670866799153345,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 96,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.12102719907407405,
+        "pureMAEMean": 0.07277777777777777,
+        "f1MAEMean": 0.1245920138888889,
+        "bc1MAEMean": 0.12786458333333336,
+        "bc2MAEMean": 0.11062499999999999,
+        "bc2SensitivityAt95SpecificityMean": 0.2326388888888889,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.026543118202530615,
+        "pureMAESD": 0.07692666909661858,
+        "f1MAESD": 0.022766884975686054,
+        "bc1MAESD": 0.029765763711657647,
+        "bc2MAESD": 0.03780558699568405,
+        "bc2SensitivityAt95SpecificitySD": 0.23409228591554102,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 96,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.1327248263888889,
+        "pureMAEMean": 0.06134444444444444,
+        "f1MAEMean": 0.1530983796296296,
+        "bc1MAEMean": 0.1353865740740741,
+        "bc2MAEMean": 0.10968952546296297,
+        "bc2SensitivityAt95SpecificityMean": 0.2369502314814815,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.017339546924688472,
+        "pureMAESD": 0.06536854293334644,
+        "f1MAESD": 0.018056585890426784,
+        "bc1MAESD": 0.01634143169039048,
+        "bc2MAESD": 0.030282768025751854,
+        "bc2SensitivityAt95SpecificitySD": 0.246575780460172,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 128,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.08447916666666667,
+        "pureMAEMean": 0.043444444444444445,
+        "f1MAEMean": 0.10571180555555555,
+        "bc1MAEMean": 0.08088541666666668,
+        "bc2MAEMean": 0.0668402777777778,
+        "bc2SensitivityAt95SpecificityMean": 0.4331597222222222,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.01383054663122409,
+        "pureMAESD": 0.04190636933509837,
+        "f1MAESD": 0.017069213811747273,
+        "bc1MAESD": 0.014332477869335778,
+        "bc2MAESD": 0.01776790369617462,
+        "bc2SensitivityAt95SpecificitySD": 0.48328582344464166,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 128,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.11925925925925927,
+        "pureMAEMean": 0.06666666666666667,
+        "f1MAEMean": 0.12342881944444446,
+        "bc1MAEMean": 0.1258767361111111,
+        "bc2MAEMean": 0.10847222222222223,
+        "bc2SensitivityAt95SpecificityMean": 0.22916666666666666,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.021650624448795577,
+        "pureMAESD": 0.07243008799565843,
+        "f1MAESD": 0.021712862367324896,
+        "bc1MAESD": 0.024497836864812016,
+        "bc2MAESD": 0.03168173983367846,
+        "bc2SensitivityAt95SpecificitySD": 0.22731397937783818,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 128,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.13251253858024692,
+        "pureMAEMean": 0.062177777777777776,
+        "f1MAEMean": 0.15276880787037037,
+        "bc1MAEMean": 0.13452864583333335,
+        "bc2MAEMean": 0.11024016203703703,
+        "bc2SensitivityAt95SpecificityMean": 0.2455439814814815,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.018522735528841174,
+        "pureMAESD": 0.06646930787129417,
+        "f1MAESD": 0.019090208514590493,
+        "bc1MAESD": 0.017633932629156163,
+        "bc2MAESD": 0.03124686431821557,
+        "bc2SensitivityAt95SpecificitySD": 0.2613982250538819,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 156,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.08712673611111112,
+        "pureMAEMean": 0.043666666666666666,
+        "f1MAEMean": 0.11046874999999999,
+        "bc1MAEMean": 0.08291666666666668,
+        "bc2MAEMean": 0.06799479166666668,
+        "bc2SensitivityAt95SpecificityMean": 0.4357638888888889,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.013494441243340736,
+        "pureMAESD": 0.043191774816100176,
+        "f1MAESD": 0.016110651105530085,
+        "bc1MAESD": 0.0141543162716412,
+        "bc2MAESD": 0.019543286732173676,
+        "bc2SensitivityAt95SpecificitySD": 0.48316942263787993,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 156,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.11838541666666669,
+        "pureMAEMean": 0.06344444444444444,
+        "f1MAEMean": 0.12299479166666666,
+        "bc1MAEMean": 0.12476562499999999,
+        "bc2MAEMean": 0.10739583333333334,
+        "bc2SensitivityAt95SpecificityMean": 0.22743055555555555,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02180470585929317,
+        "pureMAESD": 0.06962354421096884,
+        "f1MAESD": 0.020145684502892263,
+        "bc1MAESD": 0.02506163415788369,
+        "bc2MAESD": 0.02983337804828777,
+        "bc2SensitivityAt95SpecificitySD": 0.22770674680573186,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 156,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.1315121527777778,
+        "pureMAEMean": 0.06190370370370371,
+        "f1MAEMean": 0.1514412615740741,
+        "bc1MAEMean": 0.13319068287037042,
+        "bc2MAEMean": 0.10990451388888889,
+        "bc2SensitivityAt95SpecificityMean": 0.25066550925925923,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.018330786463626382,
+        "pureMAESD": 0.06563054534443316,
+        "f1MAESD": 0.019462419878392208,
+        "bc1MAESD": 0.017495945030440586,
+        "bc2MAESD": 0.030475523065690787,
+        "bc2SensitivityAt95SpecificitySD": 0.27161579827875043,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 200,
+        "method": "BantengPanel",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.09019097222222223,
+        "pureMAEMean": 0.044222222222222225,
+        "f1MAEMean": 0.11480902777777777,
+        "bc1MAEMean": 0.08561631944444446,
+        "bc2MAEMean": 0.07014756944444446,
+        "bc2SensitivityAt95SpecificityMean": 0.4435763888888889,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.013841560496458634,
+        "pureMAESD": 0.04413289496850001,
+        "f1MAESD": 0.01773708198402451,
+        "bc1MAESD": 0.014255263014627864,
+        "bc2MAESD": 0.019436754659779298,
+        "bc2SensitivityAt95SpecificitySD": 0.49137023326374113,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 200,
+        "method": "Global-MAF",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.11944444444444444,
+        "pureMAEMean": 0.06133333333333332,
+        "f1MAEMean": 0.1266840277777778,
+        "bc1MAEMean": 0.12491319444444447,
+        "bc2MAEMean": 0.10673611111111111,
+        "bc2SensitivityAt95SpecificityMean": 0.2248263888888889,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.01764140864323151,
+        "pureMAESD": 0.06815898369858173,
+        "f1MAESD": 0.01318978622192435,
+        "bc1MAESD": 0.022001487133152184,
+        "bc2MAESD": 0.024989421526215232,
+        "bc2SensitivityAt95SpecificitySD": 0.2295858048735333,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "MAD",
+        "size": 200,
+        "method": "Random-mean",
+        "folds": 18,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.13012905092592592,
+        "pureMAEMean": 0.06182592592592592,
+        "f1MAEMean": 0.14899913194444445,
+        "bc1MAEMean": 0.13129137731481486,
+        "bc2MAEMean": 0.11009664351851851,
+        "bc2SensitivityAt95SpecificityMean": 0.2628182870370371,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.01827325575943186,
+        "pureMAESD": 0.066067488326696,
+        "f1MAESD": 0.018223192933137705,
+        "bc1MAESD": 0.017512925923390883,
+        "bc2MAESD": 0.030711229249932612,
+        "bc2SensitivityAt95SpecificitySD": 0.287213695430082,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 8,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.08003645833333334,
+        "pureMAEMean": 0.057499999999999996,
+        "f1MAEMean": 0.05444531250000002,
+        "bc1MAEMean": 0.09533593750000001,
+        "bc2MAEMean": 0.090328125,
+        "bc2SensitivityAt95SpecificityMean": 0.396875,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.01742129089146171,
+        "pureMAESD": 0.05901962207159314,
+        "f1MAESD": 0.019421995410771258,
+        "bc1MAESD": 0.015511369301612916,
+        "bc2MAESD": 0.024464500202293647,
+        "bc2SensitivityAt95SpecificitySD": 0.3796111778933531,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 8,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.12206510416666665,
+        "pureMAEMean": 0.0711,
+        "f1MAEMean": 0.1122734375,
+        "bc1MAEMean": 0.13821875000000003,
+        "bc2MAEMean": 0.11570312500000002,
+        "bc2SensitivityAt95SpecificityMean": 0.24375,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02371751150923507,
+        "pureMAESD": 0.07228736513315959,
+        "f1MAESD": 0.03312195379954476,
+        "bc1MAESD": 0.02467877510715379,
+        "bc2MAESD": 0.029623481008414946,
+        "bc2SensitivityAt95SpecificitySD": 0.22000345765823534,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 8,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.2227234375,
+        "pureMAEMean": 0.08131333333333332,
+        "f1MAEMean": 0.2676697916666667,
+        "bc1MAEMean": 0.22699713541666672,
+        "bc2MAEMean": 0.17350338541666663,
+        "bc2SensitivityAt95SpecificityMean": 0.18502604166666667,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02186529646108857,
+        "pureMAESD": 0.07229227584049924,
+        "f1MAESD": 0.014899516705067655,
+        "bc1MAESD": 0.02352631396577314,
+        "bc2MAESD": 0.03942588580314629,
+        "bc2SensitivityAt95SpecificitySD": 0.07869109142033558,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 16,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07166927083333334,
+        "pureMAEMean": 0.057499999999999996,
+        "f1MAEMean": 0.05539062500000001,
+        "bc1MAEMean": 0.08135937500000001,
+        "bc2MAEMean": 0.0782578125,
+        "bc2SensitivityAt95SpecificityMean": 0.40625,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.0178341959907124,
+        "pureMAESD": 0.0570387679796082,
+        "f1MAESD": 0.016503860630386964,
+        "bc1MAESD": 0.017654328609940484,
+        "bc2MAESD": 0.025555368880097615,
+        "bc2SensitivityAt95SpecificitySD": 0.4359405949239318,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 16,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.10509114583333332,
+        "pureMAEMean": 0.0605,
+        "f1MAEMean": 0.09663281250000001,
+        "bc1MAEMean": 0.11524218750000001,
+        "bc2MAEMean": 0.10339843750000002,
+        "bc2SensitivityAt95SpecificityMean": 0.28359375,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.020225471988053297,
+        "pureMAESD": 0.06297158924968925,
+        "f1MAESD": 0.02445843697558475,
+        "bc1MAESD": 0.01892425028009435,
+        "bc2MAESD": 0.02423489354784735,
+        "bc2SensitivityAt95SpecificitySD": 0.2861540199781772,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 16,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.17696458333333334,
+        "pureMAEMean": 0.07521333333333334,
+        "f1MAEMean": 0.20675390624999998,
+        "bc1MAEMean": 0.18252968749999998,
+        "bc2MAEMean": 0.14161015625,
+        "bc2SensitivityAt95SpecificityMean": 0.2265885416666666,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.021335681387491204,
+        "pureMAESD": 0.07539442515882219,
+        "f1MAESD": 0.012252384458617049,
+        "bc1MAESD": 0.021153980982340517,
+        "bc2MAESD": 0.036711394850743824,
+        "bc2SensitivityAt95SpecificitySD": 0.13536399057706225,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 24,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07016927083333334,
+        "pureMAEMean": 0.0608,
+        "f1MAEMean": 0.05832812500000002,
+        "bc1MAEMean": 0.07653125000000002,
+        "bc2MAEMean": 0.07564843750000001,
+        "bc2SensitivityAt95SpecificityMean": 0.3859375,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.022224815440426485,
+        "pureMAESD": 0.06167623444031617,
+        "f1MAESD": 0.018054756979500326,
+        "bc1MAESD": 0.022374156941629864,
+        "bc2MAESD": 0.02949697672642363,
+        "bc2SensitivityAt95SpecificitySD": 0.4351765134538422,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 24,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.09873958333333335,
+        "pureMAEMean": 0.062,
+        "f1MAEMean": 0.09042187500000001,
+        "bc1MAEMean": 0.10675781250000001,
+        "bc2MAEMean": 0.0990390625,
+        "bc2SensitivityAt95SpecificityMean": 0.29921875,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.022375810868135674,
+        "pureMAESD": 0.06536375947443337,
+        "f1MAESD": 0.025671797167691218,
+        "bc1MAESD": 0.02109681842935761,
+        "bc2MAESD": 0.025607557596634762,
+        "bc2SensitivityAt95SpecificitySD": 0.3250472432135422,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 24,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.15812977430555558,
+        "pureMAEMean": 0.07253666666666667,
+        "f1MAEMean": 0.18182317708333334,
+        "bc1MAEMean": 0.16365390625000004,
+        "bc2MAEMean": 0.12891223958333337,
+        "bc2SensitivityAt95SpecificityMean": 0.24005208333333333,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02037730133121076,
+        "pureMAESD": 0.07503933151923596,
+        "f1MAESD": 0.014802388653510454,
+        "bc1MAESD": 0.019119500066400397,
+        "bc2MAESD": 0.034809861376733614,
+        "bc2SensitivityAt95SpecificitySD": 0.16519627045239724,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 48,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.06842708333333333,
+        "pureMAEMean": 0.0619,
+        "f1MAEMean": 0.06068750000000002,
+        "bc1MAEMean": 0.0725234375,
+        "bc2MAEMean": 0.07207031250000002,
+        "bc2SensitivityAt95SpecificityMean": 0.37734375,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.024763135718745305,
+        "pureMAESD": 0.0604630378608983,
+        "f1MAESD": 0.021665135214938746,
+        "bc1MAESD": 0.024817346477084352,
+        "bc2MAESD": 0.03079883510344896,
+        "bc2SensitivityAt95SpecificitySD": 0.4250240354561851,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 48,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.09165885416666669,
+        "pureMAEMean": 0.0671,
+        "f1MAEMean": 0.07978125000000001,
+        "bc1MAEMean": 0.097984375,
+        "bc2MAEMean": 0.09721093750000001,
+        "bc2SensitivityAt95SpecificityMean": 0.325,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02122823556351915,
+        "pureMAESD": 0.06676423561978925,
+        "f1MAESD": 0.02054312396969386,
+        "bc1MAESD": 0.021418156024353555,
+        "bc2MAESD": 0.02558039658514161,
+        "bc2SensitivityAt95SpecificitySD": 0.36505452008101336,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 48,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.13633012152777782,
+        "pureMAEMean": 0.06903999999999999,
+        "f1MAEMean": 0.15211380208333333,
+        "bc1MAEMean": 0.14095442708333333,
+        "bc2MAEMean": 0.1159221354166667,
+        "bc2SensitivityAt95SpecificityMean": 0.24419270833333334,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.019717031619648696,
+        "pureMAESD": 0.0742567236406775,
+        "f1MAESD": 0.01773169457477296,
+        "bc1MAESD": 0.018485849162318383,
+        "bc2MAESD": 0.03145976093955389,
+        "bc2SensitivityAt95SpecificitySD": 0.21174922163165952,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 72,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.06673958333333334,
+        "pureMAEMean": 0.0613,
+        "f1MAEMean": 0.05981250000000001,
+        "bc1MAEMean": 0.06939843750000001,
+        "bc2MAEMean": 0.07100781250000002,
+        "bc2SensitivityAt95SpecificityMean": 0.4,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.025381621069971466,
+        "pureMAESD": 0.06209424077031706,
+        "f1MAESD": 0.020958085912878083,
+        "bc1MAESD": 0.02573669270632308,
+        "bc2MAESD": 0.03177290615092508,
+        "bc2SensitivityAt95SpecificitySD": 0.4539154856271212,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 72,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.09032291666666667,
+        "pureMAEMean": 0.0644,
+        "f1MAEMean": 0.08026562500000002,
+        "bc1MAEMean": 0.09496093750000002,
+        "bc2MAEMean": 0.09574218749999999,
+        "bc2SensitivityAt95SpecificityMean": 0.33828125,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.020508101458212108,
+        "pureMAESD": 0.06610549782056908,
+        "f1MAESD": 0.01997281123761881,
+        "bc1MAESD": 0.020842643718669375,
+        "bc2MAESD": 0.024024976884248,
+        "bc2SensitivityAt95SpecificitySD": 0.38391523503130837,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 72,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.12853402777777778,
+        "pureMAEMean": 0.06889333333333333,
+        "f1MAEMean": 0.14148723958333337,
+        "bc1MAEMean": 0.13243359375000002,
+        "bc2MAEMean": 0.11168125,
+        "bc2SensitivityAt95SpecificityMean": 0.2538541666666666,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02084200960293669,
+        "pureMAESD": 0.07418327044580258,
+        "f1MAESD": 0.01921024522060643,
+        "bc1MAESD": 0.02058239329502904,
+        "bc2MAESD": 0.030419712919735973,
+        "bc2SensitivityAt95SpecificitySD": 0.24141352582527123,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 96,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.06683333333333334,
+        "pureMAEMean": 0.0608,
+        "f1MAEMean": 0.06001562500000002,
+        "bc1MAEMean": 0.06906250000000001,
+        "bc2MAEMean": 0.07142187500000002,
+        "bc2SensitivityAt95SpecificityMean": 0.41640625,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02585006598557019,
+        "pureMAESD": 0.06260452312564543,
+        "f1MAESD": 0.020543905816583607,
+        "bc1MAESD": 0.026902621209847297,
+        "bc2MAESD": 0.032510629745728006,
+        "bc2SensitivityAt95SpecificitySD": 0.46941496146203937,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 96,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.08794270833333336,
+        "pureMAEMean": 0.0636,
+        "f1MAEMean": 0.07765625000000001,
+        "bc1MAEMean": 0.0925,
+        "bc2MAEMean": 0.093671875,
+        "bc2SensitivityAt95SpecificityMean": 0.365625,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.019670984062557732,
+        "pureMAESD": 0.06517862097021497,
+        "f1MAESD": 0.019474028018613324,
+        "bc1MAESD": 0.020218723307962528,
+        "bc2MAESD": 0.022581318921333485,
+        "bc2SensitivityAt95SpecificitySD": 0.43043520471788355,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 96,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.12452621527777781,
+        "pureMAEMean": 0.06872333333333333,
+        "f1MAEMean": 0.13580416666666667,
+        "bc1MAEMean": 0.12767734375,
+        "bc2MAEMean": 0.11009713541666669,
+        "bc2SensitivityAt95SpecificityMean": 0.26328125,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.022205972705208573,
+        "pureMAESD": 0.07470548262679871,
+        "f1MAESD": 0.021087397882101257,
+        "bc1MAESD": 0.02203121484193982,
+        "bc2MAESD": 0.031011658494314028,
+        "bc2SensitivityAt95SpecificitySD": 0.26365213234242224,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 128,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.06805208333333335,
+        "pureMAEMean": 0.0613,
+        "f1MAEMean": 0.06134375000000001,
+        "bc1MAEMean": 0.07025,
+        "bc2MAEMean": 0.07256250000000002,
+        "bc2SensitivityAt95SpecificityMean": 0.41640625,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.026035917128459846,
+        "pureMAESD": 0.06367111218060974,
+        "f1MAESD": 0.020709580361513845,
+        "bc1MAESD": 0.027074373307005736,
+        "bc2MAESD": 0.03264310126248567,
+        "bc2SensitivityAt95SpecificitySD": 0.48290776823670506,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 128,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.08864583333333334,
+        "pureMAEMean": 0.06420000000000001,
+        "f1MAEMean": 0.07807031250000003,
+        "bc1MAEMean": 0.09299218750000002,
+        "bc2MAEMean": 0.09487500000000001,
+        "bc2SensitivityAt95SpecificityMean": 0.375,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.020377027230706758,
+        "pureMAESD": 0.06633217842598599,
+        "f1MAESD": 0.0210757583480772,
+        "bc1MAESD": 0.02054311615107469,
+        "bc2MAESD": 0.022697846343175832,
+        "bc2SensitivityAt95SpecificitySD": 0.44437733639921734,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 128,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.12235807291666667,
+        "pureMAEMean": 0.06865333333333334,
+        "f1MAEMean": 0.13263177083333333,
+        "bc1MAEMean": 0.12491119791666667,
+        "bc2MAEMean": 0.10953125,
+        "bc2SensitivityAt95SpecificityMean": 0.26914062499999997,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.023143580551031804,
+        "pureMAESD": 0.07500957474945161,
+        "f1MAESD": 0.022376132329529164,
+        "bc1MAESD": 0.023448867520768583,
+        "bc2MAESD": 0.030905970933037822,
+        "bc2SensitivityAt95SpecificitySD": 0.27915213547830176,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 156,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.0691354166666667,
+        "pureMAEMean": 0.061399999999999996,
+        "f1MAEMean": 0.06213281250000004,
+        "bc1MAEMean": 0.0713046875,
+        "bc2MAEMean": 0.07396875000000001,
+        "bc2SensitivityAt95SpecificityMean": 0.41875,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02625414088579771,
+        "pureMAESD": 0.06550243064995857,
+        "f1MAESD": 0.020863434086634325,
+        "bc1MAESD": 0.027135284997954777,
+        "bc2MAESD": 0.0329487069593945,
+        "bc2SensitivityAt95SpecificitySD": 0.48586094231081994,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 156,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.08899739583333333,
+        "pureMAEMean": 0.0637,
+        "f1MAEMean": 0.07817968750000001,
+        "bc1MAEMean": 0.09352343750000003,
+        "bc2MAEMean": 0.09528906250000001,
+        "bc2SensitivityAt95SpecificityMean": 0.37578125,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.020329206713334283,
+        "pureMAESD": 0.06649503345126018,
+        "f1MAESD": 0.021482993376627707,
+        "bc1MAESD": 0.02007243481216594,
+        "bc2MAESD": 0.02248361948275299,
+        "bc2SensitivityAt95SpecificitySD": 0.44695708553234265,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 156,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.12089713541666666,
+        "pureMAEMean": 0.06839666666666666,
+        "f1MAEMean": 0.130603125,
+        "bc1MAEMean": 0.12320130208333335,
+        "bc2MAEMean": 0.10888697916666668,
+        "bc2SensitivityAt95SpecificityMean": 0.27122395833333335,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.023267673745608525,
+        "pureMAESD": 0.0747237077701848,
+        "f1MAESD": 0.022334056768015143,
+        "bc1MAESD": 0.023824914747258976,
+        "bc2MAESD": 0.030542908145684243,
+        "bc2SensitivityAt95SpecificitySD": 0.29174174095480704,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 200,
+        "method": "BantengPanel",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.07015104166666668,
+        "pureMAEMean": 0.0618,
+        "f1MAEMean": 0.06384375000000003,
+        "bc1MAEMean": 0.07230468750000003,
+        "bc2MAEMean": 0.07430468750000002,
+        "bc2SensitivityAt95SpecificityMean": 0.4203125,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.024671330133673224,
+        "pureMAESD": 0.06539885722484598,
+        "f1MAESD": 0.0196502885592178,
+        "bc1MAESD": 0.025526622122521794,
+        "bc2MAESD": 0.030885184493484014,
+        "bc2SensitivityAt95SpecificitySD": 0.48602752910308755,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 200,
+        "method": "Global-MAF",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.08967447916666668,
+        "pureMAEMean": 0.0636,
+        "f1MAEMean": 0.07921093750000004,
+        "bc1MAEMean": 0.09387500000000001,
+        "bc2MAEMean": 0.09593750000000001,
+        "bc2SensitivityAt95SpecificityMean": 0.38203125,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.019071447148623636,
+        "pureMAESD": 0.06665417426814634,
+        "f1MAESD": 0.020164980195755963,
+        "bc1MAESD": 0.018222472141670217,
+        "bc2MAESD": 0.021857253139464513,
+        "bc2SensitivityAt95SpecificitySD": 0.4515334742993358,
+        "achievedSpecificitySD": 0.0
+      },
+      {
+        "donorBreed": "ONG",
+        "size": 200,
+        "method": "Random-mean",
+        "folds": 20,
+        "pureControlsPerFoldMin": 5,
+        "maeMean": 0.11891180555555554,
+        "pureMAEMean": 0.06862333333333334,
+        "f1MAEMean": 0.12761145833333334,
+        "bc1MAEMean": 0.12081848958333334,
+        "bc2MAEMean": 0.10830546875000002,
+        "bc2SensitivityAt95SpecificityMean": 0.2802864583333333,
+        "achievedSpecificityMean": 1.0,
+        "maeSD": 0.02354226304872384,
+        "pureMAESD": 0.07450081917992266,
+        "f1MAESD": 0.022843037082078722,
+        "bc1MAESD": 0.02440032242891157,
+        "bc2MAESD": 0.03004550386882402,
+        "bc2SensitivityAt95SpecificitySD": 0.3112013070541293,
+        "achievedSpecificitySD": 0.0
+      }
+    ],
+    "skippedFolds": [
+      {
+        "fold": 14,
+        "donorBreed": "MAD",
+        "reason": "Need >=3 training and >=1 test donor"
+      },
+      {
+        "fold": 19,
+        "donorBreed": "MAD",
+        "reason": "Need >=3 training and >=1 test donor"
+      }
+    ],
+    "assumptions": [
+      "Held-out parents only; independent Mendelian gametes per locus (unlinked approximation).",
+      "q is expected pedigree mixture relative to Bali and each donor breed, not absolute banteng ancestry.",
+      "MAD is already admixed; all source BALI labels are assumed controls, not confirmed pure.",
+      "Composite likelihood assumes HWE and independent loci; 250 kb spacing is not LD pruning.",
+      "Test-ROC sensitivity at >=95% empirical specificity is an oracle descriptive operating point, not a calibrated deployment threshold.",
+      "Only 4\u20135 Bali controls per fold; folds and simulated descendants share parents and are not independent replicates.",
+      "Simulated offspring are not independent real cattle; no field-validity or purity certification claim."
+    ]
+  },
+  "population": {
+    "method": "HWE-scaled mean-imputed PCA on full descriptive subset; MAF ranking + 250 kb spacing",
+    "predictiveValidation": false,
+    "nAnimals": 133,
+    "nMarkers": 3000,
+    "includedBreeds": [
+      "BALI",
+      "MAD",
+      "ONG",
+      "ACE",
+      "PES",
+      "BRE",
+      "THA",
+      "SAHW",
+      "GIR",
+      "RSIN"
+    ],
+    "explainedVarianceRatio": [
+      0.24485031667724627,
+      0.03453578342391719
+    ],
+    "points": [
+      {
+        "sampleId": "506:506333289",
+        "breed": "SAHW",
+        "pc1": -20.656563122359582,
+        "pc2": -5.05395681942193,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333299",
+        "breed": "SAHW",
+        "pc1": -20.7467365484887,
+        "pc2": -8.665055118191473,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333309",
+        "breed": "SAHW",
+        "pc1": -19.887209737208995,
+        "pc2": -10.827504696748553,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333319",
+        "breed": "SAHW",
+        "pc1": -18.82500854129036,
+        "pc2": -7.184433223682666,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333329",
+        "breed": "SAHW",
+        "pc1": -19.7111808929723,
+        "pc2": -7.4927365695500905,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333339",
+        "breed": "SAHW",
+        "pc1": -20.880504103213365,
+        "pc2": -9.621379651767862,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333349",
+        "breed": "SAHW",
+        "pc1": -17.961702872395357,
+        "pc2": -8.650533098680457,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333359",
+        "breed": "SAHW",
+        "pc1": -18.845647987262492,
+        "pc2": -6.818390136159187,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333369",
+        "breed": "SAHW",
+        "pc1": -18.093871989143203,
+        "pc2": -9.868350938672032,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333379",
+        "breed": "SAHW",
+        "pc1": -18.66421169645986,
+        "pc2": -8.729706475265749,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333389",
+        "breed": "SAHW",
+        "pc1": -21.330129198789752,
+        "pc2": -9.614455145409424,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506333399",
+        "breed": "SAHW",
+        "pc1": -19.58735094721564,
+        "pc2": -9.72831276319435,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506752699",
+        "breed": "SAHW",
+        "pc1": -18.849879107863476,
+        "pc2": -9.933846627102827,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506752709",
+        "breed": "SAHW",
+        "pc1": -18.368058910298544,
+        "pc2": -8.785743934027485,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506752719",
+        "breed": "SAHW",
+        "pc1": -17.530259239795598,
+        "pc2": -7.902152578282568,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506752749",
+        "breed": "SAHW",
+        "pc1": -19.89501700522365,
+        "pc2": -7.240273416043869,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "506:506752759",
+        "breed": "SAHW",
+        "pc1": -19.738730608807092,
+        "pc2": -9.63946693626732,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507333119",
+        "breed": "GIR",
+        "pc1": -20.59348489120345,
+        "pc2": -12.254754192601204,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507333129",
+        "breed": "GIR",
+        "pc1": -18.621030886792678,
+        "pc2": -11.804857092045324,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335349",
+        "breed": "GIR",
+        "pc1": -19.96299178860739,
+        "pc2": -10.610277304558172,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335359",
+        "breed": "GIR",
+        "pc1": -18.358283247435565,
+        "pc2": -10.730585110062346,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335379",
+        "breed": "GIR",
+        "pc1": -19.22010879456486,
+        "pc2": -11.82710456454421,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335399",
+        "breed": "GIR",
+        "pc1": -19.160926380460488,
+        "pc2": -11.658701144822732,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335409",
+        "breed": "GIR",
+        "pc1": -19.64893466378895,
+        "pc2": -12.31397035661258,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335419",
+        "breed": "GIR",
+        "pc1": -19.487047665385955,
+        "pc2": -11.553683319420395,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335429",
+        "breed": "GIR",
+        "pc1": -19.091560157506287,
+        "pc2": -9.01947805447561,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335439",
+        "breed": "GIR",
+        "pc1": -19.825856892719525,
+        "pc2": -11.054045576306708,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335449",
+        "breed": "GIR",
+        "pc1": -17.701327986586705,
+        "pc2": -11.561101102374542,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335459",
+        "breed": "GIR",
+        "pc1": -19.285951432058997,
+        "pc2": -11.322228921917837,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335469",
+        "breed": "GIR",
+        "pc1": -19.397518854686314,
+        "pc2": -11.9480862137759,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335479",
+        "breed": "GIR",
+        "pc1": -19.31171639518618,
+        "pc2": -12.206012983705884,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335489",
+        "breed": "GIR",
+        "pc1": -19.89997760606442,
+        "pc2": -11.058177101026553,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335499",
+        "breed": "GIR",
+        "pc1": -19.618233162092732,
+        "pc2": -11.740681372572192,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335519",
+        "breed": "GIR",
+        "pc1": -18.989326794948106,
+        "pc2": -13.128244698522531,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335529",
+        "breed": "GIR",
+        "pc1": -18.9296308410936,
+        "pc2": -10.39736952536049,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335539",
+        "breed": "GIR",
+        "pc1": -19.504548198452877,
+        "pc2": -11.60636973897433,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "507:507335559",
+        "breed": "GIR",
+        "pc1": -18.77935118865229,
+        "pc2": -10.557477207180492,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511523820",
+        "breed": "THA",
+        "pc1": -18.14443131895219,
+        "pc2": -6.37106181904362,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511523830",
+        "breed": "THA",
+        "pc1": -19.683134625792494,
+        "pc2": -5.99780414263646,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511523840",
+        "breed": "THA",
+        "pc1": -17.845709963179104,
+        "pc2": -6.44577802166902,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511523850",
+        "breed": "THA",
+        "pc1": -16.621548136579115,
+        "pc2": -5.525127193292122,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511523860",
+        "breed": "THA",
+        "pc1": -16.2328932212032,
+        "pc2": -5.142579853989211,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511523870",
+        "breed": "THA",
+        "pc1": -17.57222900865849,
+        "pc2": -6.510276403721965,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511523880",
+        "breed": "THA",
+        "pc1": -16.011851978375283,
+        "pc2": -5.448215380426779,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511752729",
+        "breed": "THA",
+        "pc1": -17.394657435470506,
+        "pc2": -2.459763164645196,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511752739",
+        "breed": "THA",
+        "pc1": -19.56900541613973,
+        "pc2": -6.443045357632712,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511752769",
+        "breed": "THA",
+        "pc1": -16.112317820460497,
+        "pc2": -4.189853962072407,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511752779",
+        "breed": "THA",
+        "pc1": -19.130159203081284,
+        "pc2": -7.752809083480404,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "511:511752789",
+        "breed": "THA",
+        "pc1": -18.48522837244055,
+        "pc2": -6.774039556792724,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512523890",
+        "breed": "RSIN",
+        "pc1": -17.227008687307208,
+        "pc2": -5.513985341759622,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512523900",
+        "breed": "RSIN",
+        "pc1": -18.02838683363527,
+        "pc2": -5.959936418957253,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512523910",
+        "breed": "RSIN",
+        "pc1": -18.790895743979227,
+        "pc2": -4.115509001006535,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512523920",
+        "breed": "RSIN",
+        "pc1": -16.981225666749296,
+        "pc2": -8.40274823818103,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512523930",
+        "breed": "RSIN",
+        "pc1": -17.35239110955494,
+        "pc2": -5.5602403861793555,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512752549",
+        "breed": "RSIN",
+        "pc1": -17.758392358781684,
+        "pc2": -7.509241680183545,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512752559",
+        "breed": "RSIN",
+        "pc1": -19.623076925655308,
+        "pc2": -9.030454639159439,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512752569",
+        "breed": "RSIN",
+        "pc1": -15.542458005726914,
+        "pc2": -6.162914993640603,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512752579",
+        "breed": "RSIN",
+        "pc1": -18.286553092959263,
+        "pc2": -8.10735819767779,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "512:512752589",
+        "breed": "RSIN",
+        "pc1": -16.661613520300826,
+        "pc2": -3.786452059468603,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520210",
+        "breed": "ONG",
+        "pc1": -13.929038639854815,
+        "pc2": -2.1199725697837897,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520220",
+        "breed": "ONG",
+        "pc1": -12.476550129642062,
+        "pc2": -1.4962606774498335,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520240",
+        "breed": "ONG",
+        "pc1": -13.396720056649762,
+        "pc2": -3.2413830401631416,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520280",
+        "breed": "ONG",
+        "pc1": -10.679262516512555,
+        "pc2": -2.0044208105156174,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520290",
+        "breed": "ONG",
+        "pc1": -11.37117578533286,
+        "pc2": -1.5249572173705657,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520300",
+        "breed": "ONG",
+        "pc1": -0.8680186317025606,
+        "pc2": 14.922394083544262,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520310",
+        "breed": "ONG",
+        "pc1": 1.1704458354034752,
+        "pc2": 11.410737979440153,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520320",
+        "breed": "ONG",
+        "pc1": 1.2798376302386156,
+        "pc2": 11.579187587023815,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520330",
+        "breed": "ONG",
+        "pc1": 1.2265668018241263,
+        "pc2": 11.592305893611552,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520340",
+        "breed": "ONG",
+        "pc1": -3.7142048538408248,
+        "pc2": 4.905971993639685,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520350",
+        "breed": "ONG",
+        "pc1": -3.63732321679757,
+        "pc2": 4.926281942825182,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520370",
+        "breed": "ONG",
+        "pc1": -10.828387369128137,
+        "pc2": 1.562333681870714,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520380",
+        "breed": "ONG",
+        "pc1": -2.8749025295913007,
+        "pc2": 2.2262303806286545,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520390",
+        "breed": "ONG",
+        "pc1": -5.5596998180500234,
+        "pc2": 4.501690164107402,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520560",
+        "breed": "ONG",
+        "pc1": -11.374439674752992,
+        "pc2": 2.129262344175832,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520570",
+        "breed": "ONG",
+        "pc1": -11.922923613871523,
+        "pc2": 0.6361066904726175,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520580",
+        "breed": "ONG",
+        "pc1": -13.95300689232845,
+        "pc2": -1.5301452963532818,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520590",
+        "breed": "ONG",
+        "pc1": -14.302385873050937,
+        "pc2": -2.526198979926328,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520600",
+        "breed": "ONG",
+        "pc1": -11.866204382573452,
+        "pc2": -0.08163379600445178,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "614:614520610",
+        "breed": "ONG",
+        "pc1": -9.1203093013758,
+        "pc2": -0.5946903872201916,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520410",
+        "breed": "BALI",
+        "pc1": 72.28649658593463,
+        "pc2": -6.612274251701917,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520420",
+        "breed": "BALI",
+        "pc1": 72.0879986714861,
+        "pc2": -6.620689132651588,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520430",
+        "breed": "BALI",
+        "pc1": 72.00805741093457,
+        "pc2": -6.526176148081539,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520440",
+        "breed": "BALI",
+        "pc1": 71.90032601292818,
+        "pc2": -7.374070501764583,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520450",
+        "breed": "BALI",
+        "pc1": 72.03361550602116,
+        "pc2": -7.671117429802881,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520460",
+        "breed": "BALI",
+        "pc1": 71.97853211095742,
+        "pc2": -7.532422165509093,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520480",
+        "breed": "BALI",
+        "pc1": 71.32281375295089,
+        "pc2": -7.983123698374021,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520490",
+        "breed": "BALI",
+        "pc1": 71.44902356932239,
+        "pc2": -7.984512953085671,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520510",
+        "breed": "BALI",
+        "pc1": 71.78550376393844,
+        "pc2": -6.686150827432045,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520520",
+        "breed": "BALI",
+        "pc1": 72.17668763855623,
+        "pc2": -6.822335322299101,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520530",
+        "breed": "BALI",
+        "pc1": 72.83182120958308,
+        "pc2": -6.530461286449079,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520540",
+        "breed": "BALI",
+        "pc1": 72.3919313349082,
+        "pc2": -6.7922102278015775,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520550",
+        "breed": "BALI",
+        "pc1": 72.24110731233355,
+        "pc2": -6.676313158454757,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520640",
+        "breed": "BALI",
+        "pc1": 72.5656539619135,
+        "pc2": -7.337451301632389,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520660",
+        "breed": "BALI",
+        "pc1": 72.28828420336181,
+        "pc2": -7.220981314798835,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520670",
+        "breed": "BALI",
+        "pc1": 37.84737746768968,
+        "pc2": -2.6362169600736225,
+        "atypicalReview": true
+      },
+      {
+        "sampleId": "615:615520680",
+        "breed": "BALI",
+        "pc1": 37.24922747403119,
+        "pc2": 6.316690523153067,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520690",
+        "breed": "BALI",
+        "pc1": 22.522810133212506,
+        "pc2": 3.5808624793591486,
+        "atypicalReview": true
+      },
+      {
+        "sampleId": "615:615520700",
+        "breed": "BALI",
+        "pc1": 67.1607469251492,
+        "pc2": -4.784821301764322,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "615:615520710",
+        "breed": "BALI",
+        "pc1": 68.14399616121723,
+        "pc2": -6.172089534968292,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520730",
+        "breed": "ACE",
+        "pc1": -11.834470396397126,
+        "pc2": 16.3349975500798,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520740",
+        "breed": "ACE",
+        "pc1": -10.056941228070198,
+        "pc2": 16.608006335646095,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520750",
+        "breed": "ACE",
+        "pc1": -11.352099746956863,
+        "pc2": 14.374934559829649,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520760",
+        "breed": "ACE",
+        "pc1": -9.739750294566603,
+        "pc2": 19.469279187382146,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520780",
+        "breed": "ACE",
+        "pc1": -12.595202193832797,
+        "pc2": 16.421613772274302,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520790",
+        "breed": "ACE",
+        "pc1": -9.774544621165795,
+        "pc2": 16.8251106789672,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520800",
+        "breed": "ACE",
+        "pc1": -10.516835780885247,
+        "pc2": 19.640134482663704,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520810",
+        "breed": "ACE",
+        "pc1": -12.559040436894197,
+        "pc2": 18.205525071031936,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520820",
+        "breed": "ACE",
+        "pc1": -11.615223748101718,
+        "pc2": 20.36076267811913,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520830",
+        "breed": "ACE",
+        "pc1": -11.447512885590779,
+        "pc2": 17.054021412045675,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520840",
+        "breed": "ACE",
+        "pc1": -14.150312955054106,
+        "pc2": 16.20302548310403,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "616:616520850",
+        "breed": "ACE",
+        "pc1": -9.995863765295807,
+        "pc2": 16.76729236518457,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "617:617520870",
+        "breed": "PES",
+        "pc1": -8.408285021592985,
+        "pc2": 21.716469566070938,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "617:617520930",
+        "breed": "PES",
+        "pc1": -7.067518465851796,
+        "pc2": 22.083043838452635,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "617:617520960",
+        "breed": "PES",
+        "pc1": -6.4963237656771,
+        "pc2": 26.32859284693891,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "617:617520970",
+        "breed": "PES",
+        "pc1": -6.683629470345211,
+        "pc2": 26.2927008859202,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "617:617521000",
+        "breed": "PES",
+        "pc1": -7.724383228294256,
+        "pc2": 23.45328422697581,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "617:617521010",
+        "breed": "PES",
+        "pc1": -7.754812781984441,
+        "pc2": 23.54437062984213,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "618:618521020",
+        "breed": "MAD",
+        "pc1": 13.815280827121608,
+        "pc2": 14.72656987724537,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "618:618521030",
+        "breed": "MAD",
+        "pc1": 13.16702719145199,
+        "pc2": 15.663623491489027,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "618:618521050",
+        "breed": "MAD",
+        "pc1": 11.210014958104747,
+        "pc2": 15.445178759342971,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "618:618521060",
+        "breed": "MAD",
+        "pc1": 13.143398419526012,
+        "pc2": 17.299584426768288,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "618:618521070",
+        "breed": "MAD",
+        "pc1": 12.49463936633465,
+        "pc2": 15.036989624752369,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "618:618521080",
+        "breed": "MAD",
+        "pc1": 13.576389805207283,
+        "pc2": 16.19823203548769,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "618:618521100",
+        "breed": "MAD",
+        "pc1": 11.8914519507533,
+        "pc2": 16.451482187143046,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521140",
+        "breed": "BRE",
+        "pc1": 4.881906735116111,
+        "pc2": 8.547117117955349,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521160",
+        "breed": "BRE",
+        "pc1": -1.0507680499713214,
+        "pc2": 6.620601061198217,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521170",
+        "breed": "BRE",
+        "pc1": 4.631984529772933,
+        "pc2": 10.426617565813562,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521180",
+        "breed": "BRE",
+        "pc1": 3.652219395767743,
+        "pc2": 10.031983864539617,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521190",
+        "breed": "BRE",
+        "pc1": 6.3686247787954615,
+        "pc2": 15.081743284120794,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521200",
+        "breed": "BRE",
+        "pc1": 6.366940839644242,
+        "pc2": 15.196950616561201,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521220",
+        "breed": "BRE",
+        "pc1": 3.2784592780450588,
+        "pc2": 9.559498173669494,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521230",
+        "breed": "BRE",
+        "pc1": 5.988323690438534,
+        "pc2": 12.565767835199804,
+        "atypicalReview": false
+      },
+      {
+        "sampleId": "619:619521240",
+        "breed": "BRE",
+        "pc1": 4.297587663665933,
+        "pc2": 11.576617660708964,
+        "atypicalReview": false
+      }
+    ],
+    "caveat": "Descriptive structure only; axes and flagged animals do not prove introgression. Not used to select or validate panels."
+  }
 }

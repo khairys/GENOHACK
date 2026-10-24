@@ -1,29 +1,28 @@
-# BantengPanel MVP specification
+# BantengPanel — Spesifikasi MVP audited
 
-## Goal
+## Produk dan tujuan
 
-Show, with public cattle genotype data, whether a Bali-aware SNP ranking can preserve Bali-versus-other-breed classification performance with fewer markers than same-size alternatives. The tool supports research panel design. It does not make breeding decisions, certify parentage, or validate a wet-lab assay.
+Prototipe riset desain panel SNP minimal bagi studi ancestry sapi Bali. Endpoint utama tambahan adalah MAE estimasi q relatif pada simulasi S1; klasifikasi label sumber tetap sebagai sanity check. Panel belum memverifikasi kemurnian, parentage, atau performa ternak nyata.
 
-## Users and workflow
+## Fitur
 
-The primary user is a livestock genetics researcher or laboratory analyst evaluating marker panels. They choose a public cohort, inspect data quality and breed counts, compare panel sizes against equal-size random and global-MAF baselines, inspect the marker list and limitations, and download the results for review.
+| Fitur | Implementasi |
+|---|---|
+| Akuisisi/QC | Dua kohort, checksum, ZIP aman, parser sumber, autosom, missing sampel |
+| Seleksi panel | Kontras frekuensi alel training; Global-MAF dan random dengan jarak sama |
+| Benchmark | 8–200 SNP, 20 fold, 30 panel acak, BA/recall, robustness 48 SNP |
+| Ancestry S1 | F1/BC1/BC2 dari induk uji, referensi training per ONG/MAD, MAE dan ROC deskriptif |
+| Populasi | PCA subset eksplisit, hewan atipikal dan prediksi held-out |
+| Dashboard | Pilihan kohort/donor/panel, kurva, PCA, tabel, CSV, kalkulator asumsi |
+| Ketertelusuran | Snapshot commit sebelum penulisan, hash sumber/config, checksum raw |
+| Submission | Deck PDF/PPTX, skrip pitch, video 2 menit, bundle offline, model bisnis berlabel |
 
-## MVP outputs
+## Batas selesai
 
-- Verified source archives and a machine-readable provenance manifest.
-- Cross-validated metrics for 8, 16, 24, 48, 72, 96, 128, 156, and 200 SNP panels where the training data support the size.
-- Baselines with exactly the same marker count.
-- Per-fold CSV, aggregate JSON, marker CSV, and this evidence report.
-- Offline-capable static dashboard backed by generated artifacts.
+Rilis teknis selesai saat pipeline/config/source hash cocok, tes bermakna lulus, dashboard/CSV/deck memakai hasil yang sama, paket lokal dan publik berfungsi, dan tidak ada placeholder di deliverable. Ketidakunggulan suatu metode tetap hasil sah.
 
-## Success criteria
+Kesiapan kompetisi lengkap juga memerlukan pekerjaan manusia: wawancara jika dilaporkan, persetujuan kontribusi/peran tim, latihan 6 menit, dan unggah sesuai tenggat. Status keduanya dipisahkan pada `AUDIT_IMPLEMENTATION_STATUS.md`.
 
-The pipeline runs from the downloaded Dryad archive, fetches and verifies the Figshare archive, builds usable genotype matrices, emits reproducible benchmark artifacts, and the dashboard can display those artifacts without a backend service. Scientific claims must match the measured results and limitations.
+## Kriteria penelitian
 
-## Product boundaries
-
-The evaluation target is Bali-versus-non-Bali breed discrimination, not genomic prediction of growth, fertility, disease resistance, or breeding value. Model performance is not a claim of assay transferability. The public cohorts are small for Bali cattle and were not collected as a prospective validation set.
-
-## Deferred
-
-Authenticated dataset uploads, multi-tenant storage, production API, wet-lab assay design, genotype calling from sequencing, field trials, and commercial pricing validation are outside this 40-hour prototype.
+Laporkan apakah panel memberikan MAE/sensitivitas/efisiensi yang lebih baik dari baseline setara. Jangan mencari atau membuang hewan agar metode terlihat unggul. S1 bersifat eksploratif dan mengasumsikan linkage/HWE sederhana; kemenangan simulasi bukan bukti lapangan.

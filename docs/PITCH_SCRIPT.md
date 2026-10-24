@@ -1,47 +1,58 @@
-# Pitch script and judge Q&A
+# Skrip pitch BantengPanel audited
 
-Target: 6 minutes for the track round. Each slide has the longer narration in its PowerPoint speaker notes. Metrics below match the completed benchmark in `artifacts/public/evidence_report.md`.
+Target slot 340 detik + buffer 20 detik = 6 menit. Ini alokasi rancangan, **bukan bukti latihan**. Versi final 7 menit: tambah 30 detik demo dan 30 detik bukti.
 
-## Six-minute flow
+## 1. Intro — 0:00 sampai 0:15
 
-| Time | Slide | Message |
-|---:|---|---|
-| 0:25 | 1 | BantengPanel tests whether a smaller marker set can retain useful information for Bali cattle. |
-| 0:45 | 2 | Population-specific usefulness is a hypothesis; customer and assay evidence are not yet available. |
-| 0:45 | 3 | A reproducible pipeline performs QC, train-fold marker ranking, equal-size comparison, and reporting. |
-| 0:50 | 4 | Two verified public cohorts provide 20 and 16 Bali animals and are kept separate. |
-| 1:15 | 5 | Dryad at 48 SNP: 0.960 vs 0.969 Global-MAF and 0.962 random. State that the method does not yet show a gain at this size. |
-| 0:50 | 6 | Start with a research design service; interview evidence and economics remain to be collected. |
-| 1:10 | 7 | Request an independent Bali cohort and a laboratory partner for the next validation stages. |
+Kami tim Exastra, membangun BantengPanel: prototipe desain panel SNP minimal untuk riset ancestry sapi Bali. Hari ini kami menunjukkan pipeline, data, dan batas buktinya.
 
-## Demo sequence
+## 2. Story — 0:15 sampai 0:45
 
-1. Open the dashboard at the Dryad cohort and point to the animal and SNP counts.
-2. Compare the three equal-size baseline curves at 48 SNP; report the exact displayed values from the evidence report.
-3. Switch to Figshare to show a second, separately analyzed cohort.
-4. Open the robustness table and marker explorer; download the candidate CSV.
-5. State that the panel is a computational candidate only, then show the 12-month validation steps.
+Ternak Indonesia mempunyai sejarah campuran zebu dan banteng yang kompleks. Literatur memberi alasan untuk menilai referensi populasi dengan hati-hati. Sebagian studi tidak menemukan introgresi zebu pada Bali yang diteliti, sedangkan studi genom terbaru menemukan beberapa individu hibrida. Kita tidak boleh menggeneralisasi bahwa semua Bali tidak murni.
 
-Keep a local browser tab ready. The dashboard does not run a live analysis; it displays versioned outputs created by the CLI.
+## 3. Pelanggan dan pain — 0:45 sampai 1:20
 
-## Current measured finding
+Calon pengguna kami adalah analis genetika dan peneliti ternak, dengan kepala lab atau program sebagai calon pembeli. BPTU-HPT Denpasar adalah contoh institusi pembibitan Bali yang relevan menurut situs resminya, belum pelanggan kami. Saat ini ada nol wawancara, nol LOI dan nol pilot berbayar. Validasi kebutuhan serta anggaran tetap perlu dilakukan.
 
-In Dryad, the 8-SNP BantengPanel mean is 0.962 balanced accuracy versus 0.940 Global-MAF and 0.915 random. At 16–200 SNP, Global-MAF is higher than BantengPanel. At 48 SNP the values are 0.960, 0.969, and 0.962 respectively. In Figshare, all three methods approach 1.000 at larger panel sizes. These are descriptive repeated-fold means from 20 overlapping test folds, with only 20 and 16 Bali animals; they do not establish statistical significance or population-wide superiority.
+## 4. Solusi — 1:20 sampai 1:45
 
-## Likely judge questions
+Dua kohort publik diverifikasi dan dianalisis terpisah karena kode alelnya berbeda. Setiap fold memilih marker hanya di training. BantengPanel dibandingkan dengan Global-MAF dan tiga puluh panel acak pada ukuran dan aturan jarak yang sama. Kami menambahkan simulasi Mendelian dan PCA deskriptif.
 
-**Why only 20 or 16 Bali animals?** These are the public raw genotype records available in the two verified sources. The reported 102-animal study does not link all raw genotypes. The cohort size limits precision, so we present this as an exploratory prototype and request a larger independent cohort.
+## 5. Demo live — 1:45 sampai 3:00
 
-**Does this prove the panel is ready for breeding use?** No. The target is Bali-versus-other-breed label discrimination. We have not tested breeding values, parentage, field outcomes, probe design, or wet-lab calls.
+Buka demo. Tunjukkan sumber commit dan jumlah hewan. Pilih referensi ONG, baca kurva MAE simulasi: lebih rendah lebih baik. Ganti donor MAD untuk menunjukkan pengaruh referensi. Buka PCA dan hewan yang perlu konfirmasi. Tunjukkan benchmark 8 SNP, ubah ukuran marker, unduh CSV. Ganti kohort ke Figshare. Bila jaringan gagal, gunakan video dua menit atau bundle offline.
 
-**Why should we trust the comparison?** SNP quality filtering and ranking happen in each training fold. The held-out samples measure performance. Global-MAF and random baselines use the same panel size. Repeated-fold SD is descriptive because folds overlap.
+## 6. Bukti — 3:00 sampai 3:45
 
-**Does the method prove a performance gain?** No consistent gain is shown. In Dryad, the 8-SNP result is promising but uncertain; Global-MAF is higher from 16 to 200 SNP, and the Figshare cohort quickly reaches a ceiling for all methods. We use this result to guide the next method and cohort, not claim superiority.
+Di Dryad, panel delapan SNP menang atas Global-MAF pada 14 dari 20 fold, seri 0 dan kalah 6. Pada empat puluh delapan SNP, balanced accuracy BantengPanel 0.960, dibanding 0.969 untuk Global-MAF. S1 Dryad versus ONG pada ukuran sama memberi MAE 0.068 dan 0.092. Hasil lengkap tetap ditampilkan untuk semua donor dan metode. Hewan atipikal bukan bukti introgresi. Simulasi bukan validasi lapangan.
 
-**Where is the cost reduction?** It has not been measured. A smaller candidate panel may reduce genotyping costs, but probe and laboratory costs, call rates, and turnaround must be measured with a partner before claiming savings.
+## 7. TAM, ROI dan finansial — 3:45 sampai 4:10
 
-**Who pays?** Our first customer hypothesis is a livestock-genetics PI or lab head; users are geneticists and analysts. We need interviews to confirm the workflow, buyer, budget path, and willingness to adopt.
+Jumlah pasar dan willingness-to-pay belum tervalidasi. Skenario asumsi sepuluh institusi, dua proyek per tahun, harga lima belas juta menghasilkan potensi 300 juta per tahun. Margin skenario 40 persen dan LTV terhadap CAC 1.39 kali. Angka ini memperlihatkan hipotesis yang perlu diperbaiki, bukan bisnis yang sudah terbukti. ROI assay memerlukan penawaran lab.
 
-**Can results from Dryad and Figshare be combined?** Not safely at this stage. Their numeric allele codes differ. We report both cohorts independently until allele orientation and assay mapping are harmonized.
+## 8. Kompetisi — 4:10 sampai 4:30
 
-**What is the immediate next experiment?** Freeze the panel candidate, acquire an unrelated Bali cohort with provenance and group information, and evaluate it once using a pre-registered grouped protocol. Then review assay feasibility with a laboratory.
+Alternatifnya chip genome-wide, panel parentage untuk tugas berbeda, analisis khusus, serta seleksi fenotipik atau status quo. Kami menawarkan desain riset yang dapat diaudit. Kami belum mengklaim assay lebih murah atau lebih baik dari produk komersial.
+
+## 9. GTM — 4:30 sampai 4:55
+
+Mulai dari wawancara dan akses kohort, lanjut ke proyek desain dengan kriteria penerimaan, baru pilot bersama laboratorium. Penjualan mengikuti peneliti sebagai champion, kepala program sebagai pembeli, serta izin data dan pengadaan. Langganan hanya dipertimbangkan setelah penggunaan berulang terbukti.
+
+## 10. Tim dan kontribusi — 4:55 sampai 5:15
+
+Exastra terdiri dari Bramantyo, Agathan, Bowo dan Bagus. Pembagian peran dan kualifikasi individual perlu dikonfirmasi tim. Ide dan referensi sudah ada sebelum kickoff; pipeline, eksperimen, dashboard dan deck tercatat selama hackathon. Timestamp Git menunjukkan pencatatan, bukan waktu setiap bagian ditulis.
+
+## 11. Roadmap dan ask — 5:15 sampai 5:40
+
+Langkah berikutnya adalah kalibrasi serta validasi independen, review probe dan uji assay, lalu pilot prospektif. Kami meminta akses satu kohort Bali dengan metadata, satu mitra lab untuk menilai kelayakan panel kecil, dan introduksi kepada calon pembeli program pembibitan. Bukti dapat diaudit, hasil negatif tetap terlihat, dan batas simulasi dinyatakan jelas.
+
+## Q&A
+
+- Apakah hewan atipikal terbukti introgresi? Belum; label, sampel dan variasi biologis masih kemungkinan lain.
+- Apakah q adalah kemurnian? S1 memakai q relatif dan target ekspektasi pedigree, bukan ancestry banteng absolut.
+- Apakah sensitivitas bisa dipakai langsung? Tidak; itu titik ROC oracle pada kontrol uji yang kecil. Ambang perlu kalibrasi independen.
+- Mengapa ada hasil negatif? Endpoint klasifikasi jenuh; semua baseline dan donor dilaporkan. Tidak ada pembuangan hewan agar hasil naik.
+- Berapa penghematan assay? Belum diketahui; belum ada quote laboratorium atau uji assay.
+- Berapa wawancara/LOI? Nol pada paket ini; hanya catatan percakapan nyata berizin boleh mengubahnya.
+
+Catat latihan nyata di REHEARSAL_LOG.md dan cek SUBMISSION_CHECKLIST.md sebelum mengunggah.

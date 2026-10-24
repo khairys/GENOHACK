@@ -1,0 +1,52 @@
+{
+  "sourceCommit": "2796296a92c1f736faaa71f0f9b1138ccafd4a61",
+  "pptxSha256": "36ff0ff65be66a55dc1387f5b70d94bed12f203b20cceafc235790afe0bf20ed",
+  "pdfSha256": "66a7c8c0c70f1701bfc77a76eed43dabef37030bae19bd9af46109641fbc65c2",
+  "pages": [
+    {
+      "slide": 1,
+      "pngSha256": "3c8b49fde63a269eb962a23e7813fa79bb497c9d07407227fa08bc397309e416"
+    },
+    {
+      "slide": 2,
+      "pngSha256": "1a3e001e2fcd7acd75f418a129f29ae94706a4d861d76eaf6f641ef21725a001"
+    },
+    {
+      "slide": 3,
+      "pngSha256": "5f2e8b007e0e300f24c8a4fa38b868c9e503d718959fbf4f61d2bac8d1fb3d3e"
+    },
+    {
+      "slide": 4,
+      "pngSha256": "8b1107426f78b1691203f6c130be2f3cc8bd0dffa97db2c56255b8b6f9a6ae9a"
+    },
+    {
+      "slide": 5,
+      "pngSha256": "f3152aa7fc167e6d67233a48a09a1bfdefcd17fb06f6fa558f32befaf0b41e97"
+    },
+    {
+      "slide": 6,
+      "pngSha256": "6b745d9e87317e64b55b5484c92355a575a6c1f7e47303e7bbe8a250753113dd"
+    },
+    {
+      "slide": 7,
+      "pngSha256": "3239e2e4c0275449fffbe2fb43589a3bdd010ea01b92a7ba9744c0e3c349c3ad"
+    },
+    {
+      "slide": 8,
+      "pngSha256": "681e6e3931cbcdce5e598dfd59ae451e0dbb3c743763c2dcbdfc4454e95431bd"
+    },
+    {
+      "slide": 9,
+      "pngSha256": "4b01979bae8ca22865a501fe04421e77612db1785eede7f82f2b6332f629273c"
+    },
+    {
+      "slide": 10,
+      "pngSha256": "4ab059f7c64761da42ee4cffbe3725405da7246ff4fa83eeb7b43bcb924b43f8"
+    },
+    {
+      "slide": 11,
+      "pngSha256": "5d11028e00b92db7d1fcf949092c9c7e735884b0fed81d61d71b03fead36f0bf"
+    }
+  ],
+  "method": "Full-slide reviewed renders plus invisible searchable text from the same PPTX"
+}

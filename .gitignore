@@ -50,3 +50,10 @@ desktop.ini
 # Static publication bundle
 /out/
 .chart-data-*/
+
+# Reproducible public submission outputs
+!artifacts/pitch/*.pdf
+!artifacts/demo/BantengPanel_offline.zip
+!artifacts/public/figures/*.png
+!artifacts/demo/frames/*.png
+node_modules/

@@ -1,0 +1,9 @@
+{
+  "team": "Exastra",
+  "source": "Participant guidebook team registry retained privately; spelling should be confirmed by team",
+  "members": ["Bramantyo Kunni Nurrisqi", "Agathan Khairy", "Bowo Laksono", "Bagus Athallah"],
+  "proposedWorkstreams": ["Metode genetika dan QC", "Komputasi, produk dan demo", "Kemitraan assay dan validasi", "Pelanggan dan model bisnis"],
+  "assignmentsConfirmed": false,
+  "individualCredentialsVerified": false,
+  "advisorNeeds": ["Genetika populasi ternak", "Desain dan validasi assay SNP", "Pengadaan dan ekonomi laboratorium"]
+}

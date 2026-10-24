@@ -1,0 +1,18 @@
+{
+  "status": "illustrative_assumptions_not_validated_market_size",
+  "unit": "million_IDR",
+  "inputs": {
+    "institutions": {"value": 10, "evidence": "assumption", "neededEvidence": "Deduplicated national list and procurement interviews"},
+    "projectsPerInstitutionPerYear": {"value": 2, "evidence": "assumption"},
+    "pricePerProject": {"value": 15, "evidence": "assumption", "neededEvidence": "Willingness-to-pay or accepted quote"},
+    "directCostPerProject": {"value": 9, "evidence": "assumption", "basis": "80 analyst hours at 0.1 million IDR/hour plus 1 million compute; assay excluded"},
+    "salesMarketingPerPeriod": {"value": 30, "evidence": "assumption"},
+    "newCustomersPerPeriod": {"value": 2, "evidence": "assumption"},
+    "retentionYears": {"value": 2, "evidence": "assumption"},
+    "discountRate": {"value": 0.1, "evidence": "assumption"}
+  },
+  "customerEvidence": {"customerInterviews": 0, "expertInterviews": 0, "lettersOfIntent": 0, "paidPilots": 0},
+  "identifiedOrganizations": [{"name": "BPTU-HPT Denpasar", "evidence": "quoted_public_institutional_source", "url": "https://bptuhptdenpasar.ditjenpkh.pertanian.go.id/faq", "meaning": "Relevant Bali breeding institution; not a confirmed customer or national market count"}],
+  "assayCostSavings": null,
+  "assayROI": null
+}

@@ -1,0 +1,46 @@
+{
+  "durationSeconds": 120,
+  "format": "Captioned slideshow walkthrough of actual dashboard views; no audio",
+  "frames": [
+    {
+      "frame": "00-intro.png",
+      "seconds": 15,
+      "caption": "BantengPanel: prototipe riset panel SNP minimal. Dua kohort publik dianalisis terpisah; bukan uji kemurnian ternak."
+    },
+    {
+      "frame": "01-s1-ong.png",
+      "seconds": 20,
+      "caption": "S1 memakai induk fold uji dan frekuensi training. Pilih ONG: MAE lebih rendah berarti estimasi campuran simulasi lebih dekat ke target pedigree."
+    },
+    {
+      "frame": "02-s1-mad.png",
+      "seconds": 15,
+      "caption": "Ganti donor ke MAD. Referensi memengaruhi hasil; q bersifat relatif, bukan proporsi banteng absolut. Semua metode memakai keturunan yang sama."
+    },
+    {
+      "frame": "03-pca.png",
+      "seconds": 20,
+      "caption": "PCA mendeskripsikan struktur populasi. Dua hewan Bali sering salah dikenali; perlu konfirmasi label/sampel. Posisi PCA tidak membuktikan introgresi."
+    },
+    {
+      "frame": "04-classification.png",
+      "seconds": 15,
+      "caption": "Benchmark biner tetap terlihat, termasuk hasil yang tidak unggul. Marker dengan frekuensi kelas tak terdefinisi sudah dikeluarkan; angka versi lama diganti."
+    },
+    {
+      "frame": "05-markers.png",
+      "seconds": 15,
+      "caption": "Pilih panel 8 SNP dan unduh CSV kandidat. Daftar full-cohort bukan panel yang sudah divalidasi eksternal. QC, baseline dan batas klaim dapat diperiksa."
+    },
+    {
+      "frame": "06-figshare.png",
+      "seconds": 10,
+      "caption": "Pilih Figshare: 107 hewan, 16 Bali. Jangan menggabungkan dosis alel kedua kohort tanpa harmonisasi. Grafik membaca artefak analisis."
+    },
+    {
+      "frame": "07-business.png",
+      "seconds": 10,
+      "caption": "Kalkulator bisnis adalah skenario asumsi, bukan TAM terukur atau traksi. Harga, kebutuhan pembeli dan biaya assay memerlukan validasi nyata."
+    }
+  ]
+}

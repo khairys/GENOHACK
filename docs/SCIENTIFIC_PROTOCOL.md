@@ -1,29 +1,41 @@
-# Scientific protocol and claim boundaries
+# Protokol ilmiah BantengPanel 2.0
 
-## Data and harmonization
+## Sumber dan QC
 
-The pipeline reads the Dryad Decker cattle PED/MAP/PEDIND files and the Sudrajad et al. Figshare text package as separate cohorts. It keeps their allele encodings separate. Dryad stores Illumina A/B alleles; Figshare encodes source minor/major alleles. Marker positions use UMD3.1. Do not combine dosage values across these sources without strand and allele-orientation harmonization.
+Dryad Decker PED/MAP/PEDIND dan Figshare Sudrajad dianalisis terpisah. Dryad memakai Illumina A/B, Figshare memakai kode minor/major sumber; dosis antar-kohort tidak disetarakan. Koordinat UMD3.1. Raw archive diverifikasi checksum, autosom 1–29 dipertahankan, sampel dengan missing >10% dikeluarkan. Dryad: 1.543 → 1.542 hewan, 43.043 → 43.042 SNP; Figshare: 107 dan 52.886. Duplikat ID Dryad dipertahankan sebagai kolom sumber dengan ID internal unik; jarak posisi mencegah dua salinan dipilih bersamaan.
 
-## Target and metrics
+## Klasifikasi label sumber (sanity check)
 
-The binary target is the source population label `BALI` versus all other recorded breeds. Balanced accuracy and Bali recall are reported. For every outer fold, the training split alone determines SNP call rate, pooled MAF, Bali-versus-comparator allele-frequency contrast, and panel ranking. The held-out split is used only for metric calculation. Logistic regression uses class weighting and a fixed regularization setting.
+Target BALI versus semua ras pembanding. RepeatedStratifiedKFold 4 × 5, seed 20261024. Hanya training fold menentukan call rate ≥90%, pooled MAF ≥1%, kontras |p_Bali−p_other| dan ranking. Marker tanpa observasi alel di salah satu kelas tidak eligible. Logistic regression ber-class-weight, C=0.1, liblinear; imputasi modus hanya di-fit di training. Imputasi gabungan dapat memihak kelas pembanding yang besar; belum ada klaim robustness optimal.
 
-## Panel ranking and controls
+Panel BantengPanel diranking kontras, Global-MAF diranking MAF, dan 30 panel acak memakai prioritas acak. **Ketiganya memakai aturan greedy jarak minimum 250 kb dalam kromosom.** Prefix panel yang sama dipakai untuk ukuran 8,16,24,48,72,96,128,156,200. Aturan jarak bukan LD pruning dan tidak menjamin independensi marker. RNG pemilihan panel, noise, serta simulasi dipisahkan agar penambahan satu eksperimen tidak mengubah yang lain.
 
-Only autosomes 1–29 are retained; samples with over 10% missing genotypes are removed before splitting. Eligible markers pass 90% training-fold call rate and 1% pooled MAF. The ranking score is the absolute allele-frequency difference between Bali and the pooled comparator group. A greedy 250 kb within-chromosome spacing rule reduces obvious local redundancy. Controls are same-size random panels and same-size panels ranked by pooled global MAF. The spacing rule is not LD pruning; no claim of LD independence is made.
+Balanced accuracy dan recall Bali diukur pada fold uji. Model dan imputer yang sama dipakai untuk perturbasi 48 SNP: tambahan missing 5/10/20% serta penggantian dosis salah 1%. Prediksi per hewan disimpan. Daftar kandidat seluruh kohort diekspor terpisah dan tidak memperoleh klaim performa eksternal.
 
-## Splitting and uncertainty
+## Hewan atipikal dan PCA
 
-Repeated stratified folds are used because only 16 Bali animals appear in Figshare and 20 in Dryad. Pedigree or validated kinship groups are not available in the input files, so close relatives may cross folds. Fold means and standard deviations are descriptive; repeated folds overlap and must not be treated as independent replicates for significance testing. Small Bali sample counts create wide uncertainty.
+CSV `*_atypical_samples.csv` menyimpan kesalahan held-out per repeat pada 48 SNP, skor kedekatan dosis ke rerata Bali vs pembanding pada kandidat 200 marker seluruh kohort, dan flag tinjauan. Flag: hewan BALI salah dikenali pada setidaknya separuh repeat. Skor kedekatan adalah post-hoc dan bukan ancestry. Hewan yang sama tidak dikeluarkan agar performa naik. Kemungkinan penyebabnya termasuk label, sampel, variasi biologis atau introgresi; belum dapat dibedakan.
 
-## Interpretation
+PCA: Figshare seluruh 107 hewan; Dryad subset kode BALI,MAD,ONG,ACE,PES,BRE,THA,SAHW,GIR,RSIN. QC/MAF di subset penuh, hingga 3.000 SNP berjarak 250 kb, imputasi rerata dosis, skala sqrt(2p(1−p)), randomized PCA dua komponen ber-seed. PCA bersifat deskriptif; tidak dipakai untuk memilih panel atau mengukur performa. Persentase varians dan seluruh koordinat diekspor.
 
-An apparent gain is a hypothesis for independent validation, not proof of a population-wide advantage. A full-cohort marker list is a design candidate, separate from the cross-validation results; it has not itself been externally validated. No panel is assay-ready: marker IDs and coordinates are supplied for research review, without validated probe design, strand, reference/alternate allele, or wet-lab performance. No recommendation should be used as a breeding, parentage, conservation, or animal-health decision without independent expert and field validation.
+## S1 — simulasi Mendelian tanpa linkage
 
-## Planned follow-up
+Fold sama dengan klasifikasi. Per donor ONG dan MAD secara **terpisah**, frekuensi alel Jeffreys-smoothed, QC dan ranking dihitung dari hewan BALI+donor di training fold. Ini menjawab desain referensi spesifik donor, bukan ranking klasifikasi seluruh pembanding.
 
-1. Obtain a larger, unrelated and geographically representative Bali cohort.
-2. Acquire pedigree or genomic kinship information and use grouped outer validation.
-3. Freeze panel design before external validation and report calibration and subgroup performance.
-4. Harmonize alleles and probe sequences against a chosen reference and assay platform.
-5. Run wet-lab call-rate, reproducibility, and cost studies with a partner laboratory.
+BALI dan donor dari fold uji menjadi induk. Per donor/fold, 64 F1 dibuat dengan satu gamet tiap induk, lalu 64 BC1 dan BC2 melalui backcross ke induk BALI fold uji. Gamet SNP disampel independen berdasarkan dosis induk; missing parental diisi dengan draw dari frekuensi training kelompok terkait. Semua metode memakai keturunan simulasi yang sama pada union marker. Induk dipilih dengan pengembalian, sehingga keturunan saling berkaitan.
+
+Target q adalah **ekspektasi kontribusi pedigree Bali**: F1 0,50; BC1 0,75; BC2 0,875. Realisasi ancestry per genom berbeda dari ekspektasi, terutama pada panel kecil. q diestimasi pada grid 0..1 langkah 0,01 melalui composite likelihood binomial dua referensi. Model mengasumsikan HWE dan SNP independen. q bersifat relatif terhadap pasangan frekuensi referensi; donor MAD/ONG dapat sudah admixed, dan label BALI sumber bukan jaminan kemurnian. q tidak boleh disebut proporsi banteng absolut pada ternak nyata.
+
+MAE dilaporkan per generasi serta rerata F1/BC1/BC2. Kontrol murni diambil dari BALI fold uji (asumsi label sumber). Sensitivitas BC2 pada spesifisitas empiris ≥95% berasal dari **titik ROC oracle pada kontrol uji**, bersifat deskriptif: ambang dipilih menggunakan kontrol uji, sehingga bukan ambang kalibrasi yang boleh diterapkan. Dengan 4–5 kontrol/fold, target ≥95% praktis memerlukan nol false-positive. Ambang lapangan harus dipilih di cohort kalibrasi independen, kemudian diuji lagi. Fold donor dengan <3 hewan training atau tanpa donor uji dilewati dan dicatat.
+
+## Ketidakpastian dan batas klaim
+
+Hanya 20 dan 16 Bali; hubungan pedigree tidak diketahui. Fold berulang tumpang tindih, keturunan berbagi induk, sehingga rerata/SD dan jumlah menang/seri/kalah bersifat deskriptif, bukan confidence interval atau uji signifikansi. Kedua cohort bukan validasi silang terharmonisasi. Hasil simulasi tidak sama dengan validasi lapangan, uji assay, breeding value, parentage atau sertifikasi kemurnian.
+
+## Ketertelusuran
+
+`gitCommit` dan `gitDirty` ditangkap sebelum menulis output. SHA-256 kode ilmiah dinormalisasi UTF-8/LF agar lintas-OS; konfigurasi, versi Python/scikit-learn, checksum raw, dan QC disimpan pada manifest. Tag sumber mengidentifikasi kode bersih; tag rilis memuat artefak hasil. Rerun penuh harus memakai kode/config/environment yang tercatat, bukan mengedit angka secara manual.
+
+## Literatur primer
+
+[Decker 2014](https://doi.org/10.1371/journal.pgen.1004254) dan [Sudrajad 2020](https://doi.org/10.1371/journal.pone.0241038) mendasari sumber data. [Mohamad 2009](https://doi.org/10.1371/journal.pone.0005490) tidak menemukan bukti introgresi zebu di lima populasi Bali yang ditelitinya; [Wang 2025](https://doi.org/10.1038/s41467-025-62692-z) menunjukkan sejarah admixture yang kompleks dan beberapa hybrid dalam sampelnya. Temuan tersebut tidak membuktikan status hewan atipikal di MVP ini.
